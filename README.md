@@ -162,6 +162,7 @@ sudo reboot
 ```
 
 **Note A** - If you have a different user other than `pi`, make sure to change the `User=pi` line to whatever user you want Steam Link starting with (e.g. `User=christian`).
+
 **Note B** - I would also recommend having OpenSSH enabled on the Steam Link device if `Restart=always` is present in the `systemd` file since it will keep restarting Steam Link after exiting through the main TTY (until it reaches fail count). You can enable the OpenSSN service by executing `sudo raspi-config` and then navigating to Interfaces -> SSH (on Buster and Bullseye).
 
 ### Monitor For Testing
@@ -181,7 +182,7 @@ Running Steam Link on this device has the highest latency and highest frame loss
 
 Unfortunately, issue #1 (below) also impacts this device regardless of public/beta Steam Link builds. Using the keyboard/mouse doesn't have issues, but the latency/frame loss is still noticeably higher compared to device #1.
 
-**Display Latency** - 30 - 50ms (with spikes up to 60ms  
+**Display Latency** - 30 - 50ms (with spikes up to 60ms)  
 **Frame Loss Percentage** - Up to 40% (no packet loss)
 
 ## Issues
