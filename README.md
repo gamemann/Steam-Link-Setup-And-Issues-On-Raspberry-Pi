@@ -2,7 +2,9 @@ This repository will be documenting my adventure to setting up [Steam Link](http
 
 My goal is to stream games from my desktop (*Host A* below) to my projector at **1920x1080**@**120Hz** (FPS). I'm *currently* running into issues which is why I'll be listing everything here and posting online for help if I can't find a solution.
 
-## Setup
+## My Setup
+My general setup may be found [here](https://github.com/gamemann/Home-Lab).
+
 ### Host A Setup (Desktop)
 * Windows 11 (22H2)
 * RTX 3090 TI
@@ -103,16 +105,32 @@ I've had a lot of issues with pairing my Xbox Core Wireless Controller through B
 ```bash
 sudo bluetoothctl
 
+# Will go into BlueTooth CLI...
+
+# Set default agent (probably not needed, but I like doing it just in case)
 default-agent
+
+# Start scanning for devices
 scan on
-# Start pairing Xbox controller and find MAC address
+
+# Start pairing Xbox controller and find/copy MAC address of controller...
+
+# Pair/connect to controller
 connect <mac address>
-# Wait until it connects, it should vibrate and have a steady light
+
+# Wait until it connects, it should vibrate and have a steady light...
+
+# Trust controller so I don't have to repair
 trust <mac address>
+
+# To remove, unpair, and untrust device, just execute the following
+remove <mac address>
 ```
 
 ### Systemd Service
 I used a simple systemd service to automatically start Steam Link on boot and also to reopen it if Steam Link closes (I would at times accidently close Steam Link with my controller).
+
+`nano /etc/systemd/system/steamlink.service` and paste the following.
 
 ```bash
 [Unit]
@@ -127,6 +145,19 @@ Restart=always
 [Install]
 WantedBy=multi-user.target
 ```
+
+Afterwards, I enable the service and reboot with the following commands.
+
+```bash
+# Enable service on boot (systemctl daemon-reload shouldn't be needed if it's a new file)
+sudo systemctl enable steamlink
+
+# Reboot
+sudo reboot
+```
+
+**Note A** - If you have a different user other than `pi`, make sure to change the `User=pi` line to whatever user you want Steam Link starting with (e.g. `User=christian`).
+**Note B** - I would also recommend having OpenSSH enabled on the Steam Link device if `Restart=always` is present in the `systemd` file since it will keep restarting Steam Link after exiting through the main TTY (until it reaches fail count). You can enable the OpenSSN service by executing `sudo raspi-config` and then navigating to Interfaces -> SSH (on Buster and Bullseye).
 
 ### Monitor For Testing
 When not using the projector (e.g. I'm at my desk), I use an [Acer KC242Y](https://www.amazon.com/dp/B0BS9T3FNB) monitor (100 Hz) with [this](https://www.amazon.com/dp/B0C6GF5S14) KVM switch for testing the Steam Link devices.
