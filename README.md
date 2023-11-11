@@ -22,16 +22,17 @@ My general setup may be found [here](https://github.com/gamemann/Home-Lab).
 * 5GHz WiFi (not used with Steam Link)
 * 1 gbps on-board NIC (used with Steam Link)
 
-**This deviced is only used for testing to make sure there aren't any issues with Host A. There has been no difference between host A and B when testing and issues have remained the same.**
+**This device is only used for testing to make sure there aren't any issues with Host A. There has been no difference between Host A and Host B when testing and issues have remained the same.**
 
 ### Steam Link Device #1
 * Raspberry Pi 4 Model B
 * Runs Raspberry OS Buster (10) LITE (no desktop GUI) with kernel 5.1
 * 16 GBs MicroSD card
+* Allocated 128/256 MBs of GPU memory via `sudo raspi-config` -> Performance -> GPU Memory
 * Wired Ethernet for Steam Link (1 gbps)
 
 ### Installing Steam Link
-Installing Steam Link on Raspberry OS Buster (10) was the easiest for me. All I ran was the following after setting up the OS.
+Installing Steam Link on Raspberry OS Buster (10) was the easiest for me. All I ran was the following after setting up the main OS.
 
 ```bash
 # Upgrade packages.
@@ -51,6 +52,7 @@ sudo apt install -y steamlink
 * Raspberry Pi 4 Model B
 * Runs Raspberry OS Bullseye (11) LITE (no desktop GUI) with kernel 6.1.46
 * 128 GBs MicroSD card
+* Allocated 128/256 MBs of GPU memory via `sudo raspi-config` -> Performance -> GPU Memory
 * Wired Ethernet for Steam Link (1 gbps)
 
 ### Installing Steam Link
@@ -74,13 +76,13 @@ wget https://raw.githubusercontent.com/icolwell/install_scripts/master/steamlink
 *To Do...*
 
 ### Projector
-[BenQ TH685P](https://www.amazon.com/dp/B09V22YRMJ) running at 1920x1080p@120Hz (FPS)
+[BenQ TH685P](https://www.amazon.com/dp/B09V22YRMJ) running at 1920x1080p@120Hz (FPS).
 
 ### Controllers
 * [Xbox Core Wireless Controller - Carbon Black](https://www.amazon.com/gp/product/B08DF248LD) via BlueTooth (primarily) or USB (for testing).
 * [Forty4 Wireless Gaming Controller](https://www.amazon.com/gp/product/B0894RCSV4) via USB dongle. Recognized as Xbox 360 Controller.
 
-#### XPadNeo
+#### Xpadneo
 I've installed [xpadneo](https://github.com/atar-axis/xpadneo) on all Steam Link devices for controller support with Xbox 360 and Xbox Series S.
 
 ```bash
@@ -131,9 +133,9 @@ exit
 ```
 
 ### Systemd Service
-I used a simple systemd service to automatically start Steam Link on boot and also to reopen it if Steam Link closes (I would at times accidently close Steam Link with my controller).
+I use a simple `systemd` service to automatically start Steam Link on boot and also to reopen it if closed (I would accidently close Steam Link with my controller at times which became annoying since I'd need to manually start Steam Link again).
 
-`nano /etc/systemd/system/steamlink.service` and paste the following.
+Create a `steamlink.service` file in the `systemd` service's directory via `nano /etc/systemd/system/steamlink.service` and paste the following.
 
 ```bash
 [Unit]
@@ -163,7 +165,7 @@ sudo reboot
 **Note B** - I would also recommend having OpenSSH enabled on the Steam Link device if `Restart=always` is present in the `systemd` file since it will keep restarting Steam Link after exiting through the main TTY (until it reaches fail count). You can enable the OpenSSN service by executing `sudo raspi-config` and then navigating to Interfaces -> SSH (on Buster and Bullseye).
 
 ### Monitor For Testing
-When not using the projector (e.g. I'm at my desk), I use an [Acer KC242Y](https://www.amazon.com/dp/B0BS9T3FNB) monitor (100 Hz) with [this](https://www.amazon.com/dp/B0C6GF5S14) KVM switch for testing the Steam Link devices.
+When not using the projector (e.g. I'm at my desk), I use an [Acer KC242Y](https://www.amazon.com/dp/B0BS9T3FNB) monitor (100 Hz) with [this](https://www.amazon.com/dp/B0C6GF5S14) KVM switch for testing the Steam Link devices. I highly doubt the monitor is the cause to the issues I'm facing, especially since it also occurs on the projector as well, but just wanted to note it down.
 
 ## Current Status
 ### Steam Link Device #1
@@ -180,15 +182,13 @@ Running Steam Link on this device has the highest latency and highest frame loss
 Unfortunately, issue #1 (below) also impacts this device regardless of public/beta Steam Link builds. Using the keyboard/mouse doesn't have issues, but the latency/frame loss is still noticeably higher compared to device #1.
 
 **Display Latency** - 30 - 50ms (with spikes up to 60ms  
-**Frame Loss Percentage** - Up to 30% (no packet loss)
+**Frame Loss Percentage** - Up to 40% (no packet loss)
 
 ## Issues
 ### Controllers Causing High Latency (#1)
 **Resolved** - No  
 **Impacts** - All Devices
 
-Currently, when I use any controllers listed under setup through USB, bluetooth, or dongle, I start receiving very high display latency making everything unplayable through the game stream. This impacts all Steam Link devices regardless of OS release, kernel, and Steam Link version (public/beta).
+Currently, when I use *any* controllers listed under my setup via USB, bluetooth, or dongle, I start receiving very high display latency making everything unplayable through the game stream. This impacts all Steam Link devices regardless of OS release, kernel, and Steam Link version (public/beta).
 
 *More information with screenshots + video coming soon...*
-
-
