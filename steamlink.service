@@ -1,0 +1,11 @@
+[Unit]
+Description=Steam Link
+
+[Service]
+Type=simple
+User=pi
+ExecStart=/usr/bin/steamlink
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
