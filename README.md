@@ -5,6 +5,8 @@ My goal is to stream games from my desktop (*Host A* below) to my projector at *
 ## My Setup
 My general setup may be found [here](https://github.com/gamemann/Home-Lab).
 
+During stream testing, I played the game **Left 4 Dead 2** on Dead Center (safe room area).
+
 ### Host A Setup (Desktop)
 * Windows 11 (22H2)
 * RTX 3090 TI
@@ -46,7 +48,14 @@ sudo apt install -y steamlink
 ```
 
 ### Steam Link Settings
-*To Do...*
+![Version](images/sl01/settings/version.jpg)
+![Settings 1](images/sl01/settings/settings1.jpg)
+![Settings 2](images/sl01/settings/settings2.jpg)
+![Settings 3](images/sl01/settings/settings3.jpg)
+
+### Performance Graphs With Keyboard/Mouse
+![Graph 1](images/sl01/snapshots/1/Screenshot.png)
+![Graph 2](images/sl01/snapshots/2/Screenshot.png)
 
 ### More Information
 Here's the outputs of additional commands giving more information on this device.
@@ -232,7 +241,14 @@ wget https://raw.githubusercontent.com/icolwell/install_scripts/master/steamlink
 ```
 
 ### Steam Link Settings
-*To Do...*
+![Version](images/sl02/settings/version.jpg)
+![Settings 1](images/sl02/settings/settings1.jpg)
+![Settings 2](images/sl02/settings/settings2.jpg)
+![Settings 3](images/sl02/settings/settings3.jpg)
+
+### Performance Graphs With Keyboard/Mouse
+![Graph 1](images/sl02/snapshots/1/Screenshot.png)
+![Graph 2](images/sl02/snapshots/2/Screenshot.png)
 
 ### More Information
 Here's the outputs of additional commands giving more information on this device.
