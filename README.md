@@ -50,7 +50,7 @@ sudo apt install -y steamlink
 
 ### Steam Link Device #2
 * Raspberry Pi 4 Model B
-* Runs Raspberry OS Bullseye (11) LITE (no desktop GUI) with kernel 6.1.46
+* Runs Raspberry OS Bullseye (11) LITE (no desktop GUI) with kernel `6.1.61-v8+`
 * 128 GBs MicroSD card
 * Allocated 128/256 MBs of GPU memory via `sudo raspi-config` -> Performance -> GPU Memory
 * Wired Ethernet for Steam Link (1 gbps)
@@ -74,6 +74,145 @@ wget https://raw.githubusercontent.com/icolwell/install_scripts/master/steamlink
 
 ### Steam Link Settings
 *To Do...*
+
+### More Information
+Here's the outputs of multiple commands.
+
+```bash
+# Kernel
+pi@sl02:~ $ uname -r
+6.1.61-v8+
+
+pi@sl02:~ $ uname -a
+Linux stress 6.1.61-v8+ #1696 SMP PREEMPT Thu Nov  2 16:44:46 GMT 2023 aarch64 GNU/Linux
+
+# Release
+pi@sl02:~ $ cat /etc/*-release
+PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"
+NAME="Debian GNU/Linux"
+VERSION_ID="11"
+VERSION="11 (bullseye)"
+VERSION_CODENAME=bullseye
+ID=debian
+HOME_URL="https://www.debian.org/"
+SUPPORT_URL="https://www.debian.org/support"
+BUG_REPORT_URL="https://bugs.debian.org/"
+
+# Processor information
+pi@sl02:~ $ cat /proc/cpuinfo
+processor       : 0
+BogoMIPS        : 108.00
+Features        : fp asimd evtstrm crc32 cpuid
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd08
+CPU revision    : 3
+
+processor       : 1
+BogoMIPS        : 108.00
+Features        : fp asimd evtstrm crc32 cpuid
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd08
+CPU revision    : 3
+
+processor       : 2
+BogoMIPS        : 108.00
+Features        : fp asimd evtstrm crc32 cpuid
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd08
+CPU revision    : 3
+
+processor       : 3
+BogoMIPS        : 108.00
+Features        : fp asimd evtstrm crc32 cpuid
+CPU implementer : 0x41
+CPU architecture: 8
+CPU variant     : 0x0
+CPU part        : 0xd08
+CPU revision    : 3
+
+Revision        : c03115
+Serial          : 10000000b02fe8cf
+Model           : Raspberry Pi 4 Model B Rev 1.5
+
+# Memory information
+pi@sl02:~ $ cat /proc/meminfo
+MemTotal:        3833280 kB
+MemFree:         3394660 kB
+MemAvailable:    3602380 kB
+Buffers:           27732 kB
+Cached:           236844 kB
+SwapCached:            0 kB
+Active:           265588 kB
+Inactive:          47060 kB
+Active(anon):      57820 kB
+Inactive(anon):     1308 kB
+Active(file):     207768 kB
+Inactive(file):    45752 kB
+Unevictable:        9852 kB
+Mlocked:              16 kB
+SwapTotal:        102396 kB
+SwapFree:         102396 kB
+Zswap:                 0 kB
+Zswapped:              0 kB
+Dirty:                 0 kB
+Writeback:             0 kB
+AnonPages:         57960 kB
+Mapped:            99944 kB
+Shmem:             11052 kB
+KReclaimable:      21908 kB
+Slab:              45440 kB
+SReclaimable:      21908 kB
+SUnreclaim:        23532 kB
+KernelStack:        2736 kB
+PageTables:         2152 kB
+SecPageTables:         0 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     2019036 kB
+Committed_AS:     365952 kB
+VmallocTotal:   259653632 kB
+VmallocUsed:       10124 kB
+VmallocChunk:          0 kB
+Percpu:              656 kB
+CmaTotal:         524288 kB
+CmaFree:          484900 kB
+
+# Partitions information
+pi@sl02:~ $  cat /proc/partitions
+major minor  #blocks  name
+
+   1        0       4096 ram0
+   1        1       4096 ram1
+   1        2       4096 ram2
+   1        3       4096 ram3
+   1        4       4096 ram4
+   1        5       4096 ram5
+   1        6       4096 ram6
+   1        7       4096 ram7
+   1        8       4096 ram8
+   1        9       4096 ram9
+   1       10       4096 ram10
+   1       11       4096 ram11
+   1       12       4096 ram12
+   1       13       4096 ram13
+   1       14       4096 ram14
+   1       15       4096 ram15
+ 179        0  124835328 mmcblk0
+ 179        1     262144 mmcblk0p1
+ 179        2  124569088 mmcblk0p2
+
+# More version information
+pi@sl02:~ $ cat /proc/version
+Linux version 6.1.61-v8+ (dom@buildbot) (aarch64-linux-gnu-gcc-8 (Ubuntu/Linaro 8.4.0-3ubuntu1) 8.4.0, GNU ld (GNU Binutils for Ubuntu) 2.34) #1696 SMP PREEMPT Thu Nov  2 16:44:46 GMT 2023
+
+```
 
 ### Projector
 [BenQ TH685P](https://www.amazon.com/dp/B09V22YRMJ) running at 1920x1080p@120Hz (FPS).
