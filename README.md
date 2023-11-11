@@ -1,7 +1,10 @@
-This repository will be documenting my adventure to setting up [Steam Link](https://store.steampowered.com/app/353380/Steam_Link/) on my [Raspberry Pi 4 Model B](https://www.amazon.com/Raspberry-Model-2019-Quad-Bluetooth/dp/B07TC2BK1X) devices. My goal is to stream games from my desktop (*Host A* below) to my projector at **1920x1080**@**120Hz** (FPS). I'm *currently* running into issues which is why I'll be listing everything here and posting online for help if I can't find anything.
+This repository will be documenting my adventure to setting up [Steam Link](https://store.steampowered.com/app/353380/Steam_Link/) on my [Raspberry Pi 4 Model B](https://www.amazon.com/Raspberry-Model-2019-Quad-Bluetooth/dp/B07TC2BK1X) devices.
+
+My goal is to stream games from my desktop (*Host A* below) to my projector at **1920x1080**@**120Hz** (FPS). I'm *currently* running into issues which is why I'll be listing everything here and posting online for help if I can't find a solution.
 
 ## Setup
 ### Host A Setup (Desktop)
+* Windows 11 (22H2)
 * RTX 3090 TI
 * AMD Ryzen 9 5900X (12c/24t)
 * 64 GBs DDR4 RAM
@@ -9,17 +12,19 @@ This repository will be documenting my adventure to setting up [Steam Link](http
 * 1 gbps on-board NIC (wired)
 
 ### Host B Setup (Laptop)
+* Linux (Ubuntu 23.04 with kernel `6.2.0-20-generic`)
 * GTX 1660 TI
 * AMD Ryzen 7 4800H (8c/16t)
 * 16 GBs DDR4 RAM
+* 1 TB NVMe
 * 5GHz WiFi (not used with Steam Link)
 * 1 gbps on-board NIC (used with Steam Link)
 
-**This deviced is only used for testing to make sure there aren't any issues with Host A**
+**This deviced is only used for testing to make sure there aren't any issues with Host A. There has been no difference between host A and B when testing and issues have remained the same.**
 
 ### Steam Link Device #1
 * Raspberry Pi 4 Model B
-* Runs Raspberry OS Buster (10) LITE with kernel 5.1
+* Runs Raspberry OS Buster (10) LITE (no desktop GUI) with kernel 5.1
 * 16 GBs MicroSD card
 * Wired Ethernet for Steam Link (1 gbps)
 
@@ -42,7 +47,7 @@ sudo apt install -y steamlink
 
 ### Steam Link Device #2
 * Raspberry Pi 4 Model B
-* Runs Raspberry OS Bullseye (11) with kernel 6.1.46
+* Runs Raspberry OS Bullseye (11) LITE (no desktop GUI) with kernel 6.1.46
 * 128 GBs MicroSD card
 * Wired Ethernet for Steam Link (1 gbps)
 
@@ -62,6 +67,58 @@ wget https://raw.githubusercontent.com/icolwell/install_scripts/master/steamlink
 
 ### Projector
 [BenQ TH685P](https://www.amazon.com/dp/B09V22YRMJ) running at 1920x1080p@120Hz (FPS)
+
+### Controllers
+
+#### XPadNeo
+I've installed [xpadneo](https://github.com/atar-axis/xpadneo) on all Steam Link devices for controller support with Xbox 360 and Xbox Series S.
+
+```bash
+# Install Raspberry Pi kernel headers + DKMS
+sudo apt install -y dkms raspberrypi-kernel-headers
+
+# Clone xpadneo
+git clone https://github.com/atar-axis/xpadneo.git
+
+# Change directory
+cd xpadneo
+
+# Install
+sudo ./install.sh
+
+# Reboot
+sudo reboot
+```
+
+I've had a lot of issues with pairing these controllers through BlueTooth in the past. However, I found this time around that stock installs of Buster (10) and Bullseye (11) with the `xpadneo` driver works *without* any other steps such as disabling ERTM or SAP. To pair my controllers through BlueTooth, I normally execute the following commands.
+
+```bash
+sudo bluetoothctl
+
+default-agent
+scan on
+# Start pairing Xbox controller and find MAC address
+connect <mac address>
+# Wait until it connects, it should vibrate and have a steady light
+trust <mac address>
+```
+
+### Systemd Service
+I used a simple systemd service to automatically start Steam Link on boot and also to reopen it if Steam Link closes (I would at times accidently close Steam Link with my controller).
+
+```bash
+[Unit]
+Description=Steam Link
+
+[Service]
+Type=simple
+User=pi
+ExecStart=/usr/bin/steamlink
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+```
 
 ### Monitor For Testing
 When not using the projector (e.g. I'm at my desk), I use an [Acer KC242Y](https://www.amazon.com/dp/B0BS9T3FNB) monitor (100 Hz) with [this](https://www.amazon.com/dp/B0C6GF5S14) KVM switch for testing the Steam Link devices.
@@ -87,5 +144,9 @@ Unfortunately, issue #1 (below) also impacts this device regardless of public/be
 ### Controllers Causing High Latency (#1)
 **Resolved** - No  
 **Impacts** - All Devices
+
+Currently, when I use any controllers listed under setup through USB, bluetooth, or dongle, I start receiving very high display latency making everything unplayable through the game stream. This impacts all Steam Link devices regardless of OS release, kernel, and Steam Link version (public/beta).
+
+*More information with screenshots + video coming soon...*
 
 
