@@ -26,7 +26,7 @@ My general setup may be found [here](https://github.com/gamemann/Home-Lab).
 
 ### Steam Link Device #1
 * Raspberry Pi 4 Model B
-* Runs Raspberry OS Buster (10) LITE (no desktop GUI) with kernel 5.1
+* Runs Raspberry OS Buster (10) LITE (no desktop GUI) with kernel `5.10.103-v7l+`
 * 16 GBs MicroSD card
 * Allocated 128/256 MBs of GPU memory via `sudo raspi-config` -> Performance -> GPU Memory
 * Wired Ethernet for Steam Link (1 gbps)
@@ -47,6 +47,165 @@ sudo apt install -y steamlink
 
 ### Steam Link Settings
 *To Do...*
+
+### More Information
+Here's the outputs of additional commands giving more information on this device.
+
+```bash
+# Kernel
+pi@sl01:~ $ uname -r
+5.10.103-v7l+
+
+pi@sl01:~ $ uname -a
+Linux raspberrypi 5.10.103-v7l+ #1529 SMP Tue Mar 8 12:24:00 GMT 2022 armv7l GNU/Linux
+
+# Release
+pi@sl01:~ $ cat /etc/*-release
+PRETTY_NAME="Raspbian GNU/Linux 10 (buster)"
+NAME="Raspbian GNU/Linux"
+VERSION_ID="10"
+VERSION="10 (buster)"
+VERSION_CODENAME=buster
+ID=raspbian
+ID_LIKE=debian
+HOME_URL="http://www.raspbian.org/"
+SUPPORT_URL="http://www.raspbian.org/RaspbianForums"
+BUG_REPORT_URL="http://www.raspbian.org/RaspbianBugs"
+
+# Processor information
+pi@sl01:~ $ cat /proc/cpuinfo
+processor       : 0
+model name      : ARMv7 Processor rev 3 (v7l)
+BogoMIPS        : 108.00
+Features        : half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm crc32
+CPU implementer : 0x41
+CPU architecture: 7
+CPU variant     : 0x0
+CPU part        : 0xd08
+CPU revision    : 3
+
+processor       : 1
+model name      : ARMv7 Processor rev 3 (v7l)
+BogoMIPS        : 108.00
+Features        : half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm crc32
+CPU implementer : 0x41
+CPU architecture: 7
+CPU variant     : 0x0
+CPU part        : 0xd08
+CPU revision    : 3
+
+processor       : 2
+model name      : ARMv7 Processor rev 3 (v7l)
+BogoMIPS        : 108.00
+Features        : half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm crc32
+CPU implementer : 0x41
+CPU architecture: 7
+CPU variant     : 0x0
+CPU part        : 0xd08
+CPU revision    : 3
+
+processor       : 3
+model name      : ARMv7 Processor rev 3 (v7l)
+BogoMIPS        : 108.00
+Features        : half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt vfpd32 lpae evtstrm crc32
+CPU implementer : 0x41
+CPU architecture: 7
+CPU variant     : 0x0
+CPU part        : 0xd08
+CPU revision    : 3
+
+Hardware        : BCM2711
+Revision        : c03114
+Serial          : 10000000d778dec3
+Model           : Raspberry Pi 4 Model B Rev 1.4
+
+# Memory information
+pi@sl01:~ $ cat /proc/meminfo
+MemTotal:        3878088 kB
+MemFree:         3544812 kB
+MemAvailable:    3622200 kB
+Buffers:           17888 kB
+Cached:           188680 kB
+SwapCached:            0 kB
+Active:           121772 kB
+Inactive:         122768 kB
+Active(anon):        532 kB
+Inactive(anon):    55140 kB
+Active(file):     121240 kB
+Inactive(file):    67628 kB
+Unevictable:        8956 kB
+Mlocked:              16 kB
+HighTotal:       3211264 kB
+HighFree:        2964808 kB
+LowTotal:         666824 kB
+LowFree:          580004 kB
+SwapTotal:        102396 kB
+SwapFree:         102396 kB
+Dirty:                 0 kB
+Writeback:             0 kB
+AnonPages:         46964 kB
+Mapped:            81176 kB
+Shmem:             17700 kB
+KReclaimable:      12884 kB
+Slab:              28024 kB
+SReclaimable:      12884 kB
+SUnreclaim:        15140 kB
+KernelStack:        1176 kB
+PageTables:         1892 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     2041440 kB
+Committed_AS:     253260 kB
+VmallocTotal:     245760 kB
+VmallocUsed:        5240 kB
+VmallocChunk:          0 kB
+Percpu:              528 kB
+CmaTotal:         327680 kB
+CmaFree:          287400 kB
+
+# Partitions information
+pi@sl01:~ $ cat /proc/partitions
+major minor  #blocks  name
+
+   1        0       4096 ram0
+   1        1       4096 ram1
+   1        2       4096 ram2
+   1        3       4096 ram3
+   1        4       4096 ram4
+   1        5       4096 ram5
+   1        6       4096 ram6
+   1        7       4096 ram7
+   1        8       4096 ram8
+   1        9       4096 ram9
+   1       10       4096 ram10
+   1       11       4096 ram11
+   1       12       4096 ram12
+   1       13       4096 ram13
+   1       14       4096 ram14
+   1       15       4096 ram15
+ 179        0   15267840 mmcblk0
+ 179        1     262144 mmcblk0p1
+ 179        2   15001600 mmcblk0p2
+
+# More version information
+pi@sl01:~ $ cat /proc/version
+Linux version 5.10.103-v7l+ (dom@buildbot) (arm-linux-gnueabihf-gcc-8 (Ubuntu/Linaro 8.4.0-3ubuntu1) 8.4.0, GNU ld (GNU Binutils for Ubuntu) 2.34) #1529 SMP Tue Mar 8 12:24:00 GMT 2022
+
+# USB devices
+pi@sl01:~ $ lsusb
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 001 Device 005: ID 1532:0226 Razer USA, Ltd
+Bus 001 Device 004: ID 093a:2533 Pixart Imaging, Inc.
+Bus 001 Device 003: ID 2109:2817 VIA Labs, Inc.
+Bus 001 Device 002: ID 2109:3431 VIA Labs, Inc. Hub
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+
+# PCI devices
+pi@sl01:~ $ lspci
+00:00.0 PCI bridge: Broadcom Limited Device 2711 (rev 20)
+01:00.0 USB controller: VIA Technologies, Inc. VL805 USB 3.0 Host Controller (rev 01)
+```
 
 ### Steam Link Device #2
 * Raspberry Pi 4 Model B
@@ -76,7 +235,7 @@ wget https://raw.githubusercontent.com/icolwell/install_scripts/master/steamlink
 *To Do...*
 
 ### More Information
-Here's the outputs of multiple commands.
+Here's the outputs of additional commands giving more information on this device.
 
 ```bash
 # Kernel
@@ -211,7 +370,6 @@ major minor  #blocks  name
 # More version information
 pi@sl02:~ $ cat /proc/version
 Linux version 6.1.61-v8+ (dom@buildbot) (aarch64-linux-gnu-gcc-8 (Ubuntu/Linaro 8.4.0-3ubuntu1) 8.4.0, GNU ld (GNU Binutils for Ubuntu) 2.34) #1696 SMP PREEMPT Thu Nov  2 16:44:46 GMT 2023
-
 ```
 
 ### Projector
