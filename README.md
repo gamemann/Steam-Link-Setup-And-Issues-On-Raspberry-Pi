@@ -55,10 +55,16 @@ sudo apt install -y steamlink
 Installing Steam Link on Raspberry OS Bullseye (11) was a little more complicated. I used [this](https://raw.githubusercontent.com/icolwell/install_scripts/master/steamlink_install.bash) install script.
 
 ```bash
+# Upgrade packages.
+sudo apt update && sudo apt upgrade -y
+
+# Reboot
+sudo reboot
+
 # Retrieve install script by Icolwell
 wget https://raw.githubusercontent.com/icolwell/install_scripts/master/steamlink_install.bash
 
-# Run the script
+# Run the script to install Steam Link
 ./steamlink_install.bash
 ```
 
