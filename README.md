@@ -69,6 +69,8 @@ wget https://raw.githubusercontent.com/icolwell/install_scripts/master/steamlink
 [BenQ TH685P](https://www.amazon.com/dp/B09V22YRMJ) running at 1920x1080p@120Hz (FPS)
 
 ### Controllers
+* [Xbox Core Wireless Controller - Carbon Black](https://www.amazon.com/gp/product/B08DF248LD) via BlueTooth (primarily) or USB (for testing).
+* [Forty4 Wireless Gaming Controller](https://www.amazon.com/gp/product/B0894RCSV4) via USB dongle. Recognized as Xbox 360 Controller.
 
 #### XPadNeo
 I've installed [xpadneo](https://github.com/atar-axis/xpadneo) on all Steam Link devices for controller support with Xbox 360 and Xbox Series S.
@@ -90,7 +92,7 @@ sudo ./install.sh
 sudo reboot
 ```
 
-I've had a lot of issues with pairing these controllers through BlueTooth in the past. However, I found this time around that stock installs of Buster (10) and Bullseye (11) with the `xpadneo` driver works *without* any other steps such as disabling ERTM or SAP. To pair my controllers through BlueTooth, I normally execute the following commands.
+I've had a lot of issues with pairing my Xbox Core Wireless Controller through BlueTooth in the past. However, I found this time around that stock installs of Buster (10) and Bullseye (11) with the `xpadneo` driver works *without* any other steps such as disabling ERTM or SAP. To pair my controllers through BlueTooth, I normally execute the following commands.
 
 ```bash
 sudo bluetoothctl
@@ -129,7 +131,7 @@ Running Steam Link on this device has the lowest latency and lowest frame loss p
 
 Unfortunately, issue #1 (below) impacts this device regardless of public/beta Steam Link builds. However, using a keyboard/mouse results in mostly smooth gameplay.
 
-**Display Latency** - Around 20 - 30ms
+**Display Latency** - Around 20 - 30ms  
 **Frame Loss Percentage** - Up to 7 - 8% (no packet loss)
 
 ### Steam Link Device #2
@@ -137,7 +139,7 @@ Running Steam Link on this device has the highest latency and highest frame loss
 
 Unfortunately, issue #1 (below) also impacts this device regardless of public/beta Steam Link builds. Using the keyboard/mouse doesn't have issues, but the latency/frame loss is still noticeably higher compared to device #1.
 
-**Display Latency** - 30 - 50ms (with spikes up to 60ms0
+**Display Latency** - 30 - 50ms (with spikes up to 60ms  
 **Frame Loss Percentage** - Up to 30% (no packet loss)
 
 ## Issues
