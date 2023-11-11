@@ -1,0 +1,2076 @@
+
+
+=====================================================================
+Game: Left 4 Dead 2 (550)
+Date: 11/11/23 17:23:01
+=====================================================================
+NETWORK: Ping: 0.27ms, Server: 74015 Kbit/s, Client: 36 Kbit/s, Link: 100000 Kbit/s, Packet loss: 0.00%
+Frame: 51976, 92289 bytes, k_EStreamFrameEventStart at 503257.53ms
+           k_EStreamFrameEventCaptureBegin at 503257.53ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503257.72ms, delta: 0.18ms
+           k_EStreamFrameEventConvertBegin at 503257.72ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503257.75ms, delta: 0.02ms
+           k_EStreamFrameEventEncodeBegin at 503257.75ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503259.72ms, delta: 1.97ms
+           k_EStreamFrameEventSend at 503259.72ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 503272.34ms, delta: 12.65ms
+           k_EStreamFrameEventDecodeBegin at 503280.78ms, delta: 8.42ms
+           k_EStreamFrameEventDecodeEnd at 503281.47ms, delta: 0.70ms
+           k_EStreamFrameEventUploadBegin at 503284.50ms, delta: 3.02ms
+           k_EStreamFrameEventUploadEnd at 503284.66ms, delta: 0.15ms
+           k_EStreamFrameEventComplete at 503299.91ms, delta: 15.24ms
+           total frame time: 42.36ms, result = k_EStreamFrameResultDisplayed
+Frame: 51977, 117612 bytes, k_EStreamFrameEventStart at 503266.19ms
+           k_EStreamFrameEventCaptureBegin at 503266.19ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503266.38ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 503266.38ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503266.38ms, delta: 0.02ms
+           k_EStreamFrameEventEncodeBegin at 503266.38ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503268.34ms, delta: 1.97ms
+           k_EStreamFrameEventSend at 503268.34ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 503289.00ms, delta: 20.65ms
+           k_EStreamFrameEventDecodeBegin at 503289.22ms, delta: 0.23ms
+           k_EStreamFrameEventDecodeEnd at 503289.72ms, delta: 0.47ms
+           k_EStreamFrameEventComplete at 503300.31ms, delta: 10.60ms
+           total frame time: 34.13ms, result = k_EStreamFrameResultDroppedLate
+Frame: 51979, 91567 bytes, k_EStreamFrameEventStart at 503283.41ms
+           k_EStreamFrameEventCaptureBegin at 503283.41ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503283.59ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 503283.62ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 503283.62ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503283.62ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503285.66ms, delta: 2.04ms
+           k_EStreamFrameEventSend at 503285.66ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 503289.84ms, delta: 4.20ms
+           k_EStreamFrameEventDecodeBegin at 503298.16ms, delta: 8.30ms
+           k_EStreamFrameEventDecodeEnd at 503298.53ms, delta: 0.37ms
+           k_EStreamFrameEventUploadBegin at 503300.34ms, delta: 1.83ms
+           k_EStreamFrameEventUploadEnd at 503300.44ms, delta: 0.08ms
+           k_EStreamFrameEventComplete at 503319.97ms, delta: 19.55ms
+           total frame time: 36.58ms, result = k_EStreamFrameResultDisplayed
+Frame: 51980, 49009 bytes, k_EStreamFrameEventStart at 503291.25ms
+           k_EStreamFrameEventCaptureBegin at 503291.25ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503291.47ms, delta: 0.23ms
+           k_EStreamFrameEventConvertBegin at 503291.50ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 503291.50ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503291.50ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503293.47ms, delta: 1.98ms
+           k_EStreamFrameEventSend at 503293.47ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 503300.56ms, delta: 7.08ms
+           k_EStreamFrameEventDecodeBegin at 503303.69ms, delta: 3.13ms
+           k_EStreamFrameEventDecodeEnd at 503305.25ms, delta: 1.57ms
+           k_EStreamFrameEventComplete at 503320.34ms, delta: 15.09ms
+           total frame time: 29.10ms, result = k_EStreamFrameResultDroppedLate
+Frame: 51981, 77094 bytes, k_EStreamFrameEventStart at 503298.94ms
+           k_EStreamFrameEventCaptureBegin at 503298.94ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503299.12ms, delta: 0.18ms
+           k_EStreamFrameEventConvertBegin at 503299.12ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 503299.12ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503299.12ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503301.16ms, delta: 2.01ms
+           k_EStreamFrameEventSend at 503301.16ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 503300.78ms, delta: -0.40ms
+           k_EStreamFrameEventDecodeBegin at 503308.78ms, delta: 8.01ms
+           k_EStreamFrameEventDecodeEnd at 503309.06ms, delta: 0.29ms
+           k_EStreamFrameEventUploadBegin at 503320.34ms, delta: 11.28ms
+           k_EStreamFrameEventUploadEnd at 503320.44ms, delta: 0.09ms
+           k_EStreamFrameEventComplete at 503333.75ms, delta: 13.31ms
+           total frame time: 34.81ms, result = k_EStreamFrameResultDisplayed
+Frame: 51982, 56336 bytes, k_EStreamFrameEventStart at 503308.16ms
+           k_EStreamFrameEventCaptureBegin at 503308.16ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503308.34ms, delta: 0.18ms
+           k_EStreamFrameEventConvertBegin at 503308.34ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 503308.34ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503308.34ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503310.31ms, delta: 1.97ms
+           k_EStreamFrameEventSend at 503310.31ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 503321.44ms, delta: 11.12ms
+           k_EStreamFrameEventDecodeBegin at 503323.06ms, delta: 1.62ms
+           k_EStreamFrameEventDecodeEnd at 503325.00ms, delta: 1.94ms
+           k_EStreamFrameEventUploadBegin at 503333.91ms, delta: 8.91ms
+           k_EStreamFrameEventUploadEnd at 503333.94ms, delta: 0.02ms
+           k_EStreamFrameEventComplete at 503354.31ms, delta: 20.39ms
+           total frame time: 46.16ms, result = k_EStreamFrameResultDisplayed
+Frame: 51983, 116721 bytes, k_EStreamFrameEventStart at 503316.06ms
+           k_EStreamFrameEventCaptureBegin at 503316.06ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503316.28ms, delta: 0.21ms
+           k_EStreamFrameEventConvertBegin at 503316.28ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503316.28ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503316.28ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503318.25ms, delta: 1.97ms
+           k_EStreamFrameEventSend at 503318.25ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 503331.28ms, delta: 13.02ms
+           k_EStreamFrameEventDecodeBegin at 503331.94ms, delta: 0.67ms
+           k_EStreamFrameEventDecodeEnd at 503334.00ms, delta: 2.04ms
+           k_EStreamFrameEventComplete at 503355.44ms, delta: 21.44ms
+           total frame time: 39.37ms, result = k_EStreamFrameResultDroppedLate
+Frame: 51984, 89366 bytes, k_EStreamFrameEventStart at 503322.94ms
+           k_EStreamFrameEventCaptureBegin at 503322.94ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503323.12ms, delta: 0.18ms
+           k_EStreamFrameEventConvertBegin at 503323.12ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503323.12ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503323.12ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503325.09ms, delta: 1.98ms
+           k_EStreamFrameEventSend at 503325.12ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 503338.66ms, delta: 13.53ms
+           k_EStreamFrameEventDecodeBegin at 503339.41ms, delta: 0.76ms
+           k_EStreamFrameEventDecodeEnd at 503342.94ms, delta: 3.51ms
+           k_EStreamFrameEventComplete at 503355.44ms, delta: 12.50ms
+           total frame time: 32.49ms, result = k_EStreamFrameResultDroppedLate
+Frame: 51985, 78317 bytes, k_EStreamFrameEventStart at 503332.03ms
+           k_EStreamFrameEventCaptureBegin at 503332.03ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503332.19ms, delta: 0.18ms
+           k_EStreamFrameEventConvertBegin at 503332.22ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 503332.22ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503332.22ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503334.12ms, delta: 1.92ms
+           k_EStreamFrameEventSend at 503334.16ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 503344.91ms, delta: 10.76ms
+           k_EStreamFrameEventDecodeBegin at 503351.78ms, delta: 6.88ms
+           k_EStreamFrameEventDecodeEnd at 503352.19ms, delta: 0.38ms
+           k_EStreamFrameEventUploadBegin at 503355.44ms, delta: 3.27ms
+           k_EStreamFrameEventUploadEnd at 503355.59ms, delta: 0.17ms
+           k_EStreamFrameEventComplete at 503372.84ms, delta: 17.24ms
+           total frame time: 40.83ms, result = k_EStreamFrameResultDisplayed
+Frame: 51986, 91766 bytes, k_EStreamFrameEventStart at 503341.31ms
+           k_EStreamFrameEventCaptureBegin at 503341.31ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503341.50ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 503341.50ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503341.50ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503341.50ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503343.50ms, delta: 2.00ms
+           k_EStreamFrameEventSend at 503343.50ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 503353.09ms, delta: 9.58ms
+           k_EStreamFrameEventDecodeBegin at 503353.66ms, delta: 0.56ms
+           k_EStreamFrameEventDecodeEnd at 503357.31ms, delta: 3.66ms
+           k_EStreamFrameEventComplete at 503375.91ms, delta: 18.59ms
+           total frame time: 34.59ms, result = k_EStreamFrameResultDroppedLate
+NETWORK: Ping: 0.27ms, Server: 74015 Kbit/s, Client: 36 Kbit/s, Link: 100000 Kbit/s, Packet loss: 0.00%
+Frame: 51987, 62185 bytes, k_EStreamFrameEventStart at 503349.56ms
+           k_EStreamFrameEventCaptureBegin at 503349.56ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503349.75ms, delta: 0.21ms
+           k_EStreamFrameEventConvertBegin at 503349.75ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503349.75ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503349.75ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503351.72ms, delta: 1.97ms
+           k_EStreamFrameEventSend at 503351.72ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 503357.44ms, delta: 5.72ms
+           k_EStreamFrameEventDecodeBegin at 503361.03ms, delta: 3.59ms
+           k_EStreamFrameEventDecodeEnd at 503361.28ms, delta: 0.24ms
+           k_EStreamFrameEventComplete at 503375.91ms, delta: 14.62ms
+           total frame time: 26.35ms, result = k_EStreamFrameResultDroppedLate
+Frame: 51988, 70105 bytes, k_EStreamFrameEventStart at 503357.44ms
+           k_EStreamFrameEventCaptureBegin at 503357.44ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503357.59ms, delta: 0.18ms
+           k_EStreamFrameEventConvertBegin at 503357.62ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 503357.62ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503357.62ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503359.56ms, delta: 1.94ms
+           k_EStreamFrameEventSend at 503359.56ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 503367.66ms, delta: 8.09ms
+           k_EStreamFrameEventDecodeBegin at 503369.84ms, delta: 2.20ms
+           k_EStreamFrameEventDecodeEnd at 503370.16ms, delta: 0.29ms
+           k_EStreamFrameEventUploadBegin at 503375.94ms, delta: 5.78ms
+           k_EStreamFrameEventUploadEnd at 503376.09ms, delta: 0.15ms
+           k_EStreamFrameEventComplete at 503391.50ms, delta: 15.43ms
+           total frame time: 34.09ms, result = k_EStreamFrameResultDisplayed
+Frame: 51989, 109728 bytes, k_EStreamFrameEventStart at 503365.16ms
+           k_EStreamFrameEventCaptureBegin at 503365.16ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503365.34ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 503365.34ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503365.34ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503365.34ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503367.34ms, delta: 1.98ms
+           k_EStreamFrameEventSend at 503367.34ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 503384.22ms, delta: 16.88ms
+           k_EStreamFrameEventDecodeBegin at 503387.00ms, delta: 2.76ms
+           k_EStreamFrameEventDecodeEnd at 503387.47ms, delta: 0.49ms
+           k_EStreamFrameEventComplete at 503392.81ms, delta: 5.34ms
+           total frame time: 27.66ms, result = k_EStreamFrameResultDroppedLate
+Frame: 51990, 56640 bytes, k_EStreamFrameEventStart at 503374.53ms
+           k_EStreamFrameEventCaptureBegin at 503374.53ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503374.75ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 503374.75ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 503374.75ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503374.75ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503376.81ms, delta: 2.04ms
+           k_EStreamFrameEventSend at 503376.81ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 503390.62ms, delta: 13.81ms
+           k_EStreamFrameEventDecodeBegin at 503390.97ms, delta: 0.37ms
+           k_EStreamFrameEventDecodeEnd at 503391.56ms, delta: 0.60ms
+           k_EStreamFrameEventUploadBegin at 503392.84ms, delta: 1.28ms
+           k_EStreamFrameEventUploadEnd at 503392.91ms, delta: 0.05ms
+           k_EStreamFrameEventComplete at 503413.25ms, delta: 20.36ms
+           total frame time: 38.71ms, result = k_EStreamFrameResultDisplayed
+Frame: 51992, 75672 bytes, k_EStreamFrameEventStart at 503390.97ms
+           k_EStreamFrameEventCaptureBegin at 503390.97ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503391.16ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 503391.16ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503391.16ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503391.16ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503393.16ms, delta: 2.00ms
+           k_EStreamFrameEventSend at 503393.16ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 503399.16ms, delta: 6.00ms
+           k_EStreamFrameEventDecodeBegin at 503399.84ms, delta: 0.70ms
+           k_EStreamFrameEventDecodeEnd at 503402.66ms, delta: 2.81ms
+           k_EStreamFrameEventComplete at 503499.88ms, delta: 97.21ms
+           total frame time: 108.92ms, result = k_EStreamFrameResultDroppedLate
+Frame: 51993, 67950 bytes, k_EStreamFrameEventStart at 503399.09ms
+           k_EStreamFrameEventCaptureBegin at 503399.09ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503399.28ms, delta: 0.17ms
+           k_EStreamFrameEventConvertBegin at 503399.28ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 503399.28ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503399.28ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503401.25ms, delta: 1.95ms
+           k_EStreamFrameEventSend at 503401.25ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 503406.69ms, delta: 5.42ms
+           k_EStreamFrameEventDecodeBegin at 503422.91ms, delta: 16.22ms
+           k_EStreamFrameEventDecodeEnd at 503423.62ms, delta: 0.72ms
+           k_EStreamFrameEventComplete at 503499.91ms, delta: 76.28ms
+           total frame time: 100.78ms, result = k_EStreamFrameResultDroppedLate
+Frame: 51994, 116875 bytes, k_EStreamFrameEventStart at 503406.03ms
+           k_EStreamFrameEventCaptureBegin at 503406.03ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503406.22ms, delta: 0.18ms
+           k_EStreamFrameEventConvertBegin at 503406.22ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 503406.22ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503406.22ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503408.19ms, delta: 1.98ms
+           k_EStreamFrameEventSend at 503408.19ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 503413.81ms, delta: 5.62ms
+           k_EStreamFrameEventDecodeBegin at 503425.97ms, delta: 12.16ms
+           k_EStreamFrameEventDecodeEnd at 503427.25ms, delta: 1.27ms
+           k_EStreamFrameEventComplete at 503499.91ms, delta: 72.66ms
+           total frame time: 93.89ms, result = k_EStreamFrameResultDroppedLate
+Frame: 51995, 73623 bytes, k_EStreamFrameEventStart at 503415.59ms
+           k_EStreamFrameEventCaptureBegin at 503415.59ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503415.84ms, delta: 0.23ms
+           k_EStreamFrameEventConvertBegin at 503415.84ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503415.84ms, delta: 0.02ms
+           k_EStreamFrameEventEncodeBegin at 503415.84ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503417.81ms, delta: 1.95ms
+           k_EStreamFrameEventSend at 503417.81ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 503428.44ms, delta: 10.65ms
+           k_EStreamFrameEventDecodeBegin at 503430.88ms, delta: 2.43ms
+           k_EStreamFrameEventDecodeEnd at 503435.16ms, delta: 4.29ms
+           k_EStreamFrameEventComplete at 503499.91ms, delta: 64.74ms
+           total frame time: 84.30ms, result = k_EStreamFrameResultDroppedLate
+Frame: 51996, 89786 bytes, k_EStreamFrameEventStart at 503423.97ms
+           k_EStreamFrameEventCaptureBegin at 503423.97ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503424.16ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 503424.16ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503424.16ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503424.16ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503426.16ms, delta: 1.98ms
+           k_EStreamFrameEventSend at 503426.16ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 503432.22ms, delta: 6.07ms
+           k_EStreamFrameEventDecodeBegin at 503440.06ms, delta: 7.84ms
+           k_EStreamFrameEventDecodeEnd at 503445.12ms, delta: 5.07ms
+           k_EStreamFrameEventComplete at 503499.94ms, delta: 54.79ms
+           total frame time: 75.96ms, result = k_EStreamFrameResultDroppedLate
+Frame: 51997, 89718 bytes, k_EStreamFrameEventStart at 503431.38ms
+           k_EStreamFrameEventCaptureBegin at 503431.38ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503431.56ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 503431.56ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503431.56ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503431.56ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503433.53ms, delta: 1.97ms
+           k_EStreamFrameEventSend at 503433.53ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 503441.59ms, delta: 8.06ms
+           k_EStreamFrameEventDecodeBegin at 503449.59ms, delta: 8.01ms
+           k_EStreamFrameEventDecodeEnd at 503450.12ms, delta: 0.53ms
+           k_EStreamFrameEventComplete at 503499.94ms, delta: 49.79ms
+           total frame time: 68.56ms, result = k_EStreamFrameResultDroppedLate
+NETWORK: Ping: 0.27ms, Server: 74015 Kbit/s, Client: 36 Kbit/s, Link: 100000 Kbit/s, Packet loss: 0.00%
+Frame: 51998, 93534 bytes, k_EStreamFrameEventStart at 503440.53ms
+           k_EStreamFrameEventCaptureBegin at 503440.53ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503440.72ms, delta: 0.18ms
+           k_EStreamFrameEventConvertBegin at 503440.75ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 503440.75ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503440.75ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503442.72ms, delta: 1.97ms
+           k_EStreamFrameEventSend at 503442.72ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 503450.94ms, delta: 8.24ms
+           k_EStreamFrameEventDecodeBegin at 503457.91ms, delta: 6.97ms
+           k_EStreamFrameEventDecodeEnd at 503458.53ms, delta: 0.63ms
+           k_EStreamFrameEventComplete at 503499.94ms, delta: 41.40ms
+           total frame time: 59.40ms, result = k_EStreamFrameResultDroppedLate
+Frame: 51999, 81928 bytes, k_EStreamFrameEventStart at 503448.31ms
+           k_EStreamFrameEventCaptureBegin at 503448.31ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503448.53ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 503448.53ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 503448.53ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503448.53ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503450.53ms, delta: 2.00ms
+           k_EStreamFrameEventSend at 503450.53ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 503451.09ms, delta: 0.53ms
+           k_EStreamFrameEventDecodeBegin at 503458.94ms, delta: 7.86ms
+           k_EStreamFrameEventDecodeEnd at 503466.34ms, delta: 7.42ms
+           k_EStreamFrameEventComplete at 503499.94ms, delta: 33.58ms
+           total frame time: 51.62ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52000, 65708 bytes, k_EStreamFrameEventStart at 503457.50ms
+           k_EStreamFrameEventCaptureBegin at 503457.50ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503457.69ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 503457.69ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503457.69ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503457.69ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503459.66ms, delta: 1.97ms
+           k_EStreamFrameEventSend at 503459.66ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 503471.72ms, delta: 12.07ms
+           k_EStreamFrameEventDecodeBegin at 503473.25ms, delta: 1.51ms
+           k_EStreamFrameEventDecodeEnd at 503476.06ms, delta: 2.84ms
+           k_EStreamFrameEventComplete at 503499.94ms, delta: 23.86ms
+           total frame time: 42.45ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52001, 78735 bytes, k_EStreamFrameEventStart at 503465.69ms
+           k_EStreamFrameEventCaptureBegin at 503465.69ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503465.91ms, delta: 0.21ms
+           k_EStreamFrameEventConvertBegin at 503465.94ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 503465.94ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503465.94ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503467.88ms, delta: 1.95ms
+           k_EStreamFrameEventSend at 503467.91ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 503476.56ms, delta: 8.67ms
+           k_EStreamFrameEventDecodeBegin at 503484.47ms, delta: 7.92ms
+           k_EStreamFrameEventDecodeEnd at 503484.94ms, delta: 0.44ms
+           k_EStreamFrameEventComplete at 503499.94ms, delta: 15.01ms
+           total frame time: 34.24ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52002, 91734 bytes, k_EStreamFrameEventStart at 503473.44ms
+           k_EStreamFrameEventCaptureBegin at 503473.44ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503473.66ms, delta: 0.21ms
+           k_EStreamFrameEventConvertBegin at 503473.66ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 503473.66ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503473.66ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503475.62ms, delta: 1.95ms
+           k_EStreamFrameEventSend at 503475.62ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 503485.53ms, delta: 9.90ms
+           k_EStreamFrameEventDecodeBegin at 503493.72ms, delta: 8.19ms
+           k_EStreamFrameEventDecodeEnd at 503494.34ms, delta: 0.61ms
+           k_EStreamFrameEventUploadBegin at 503499.97ms, delta: 5.62ms
+           k_EStreamFrameEventUploadEnd at 503500.03ms, delta: 0.09ms
+           k_EStreamFrameEventComplete at 503525.41ms, delta: 25.38ms
+           total frame time: 51.99ms, result = k_EStreamFrameResultDisplayed
+Frame: 52003, 91368 bytes, k_EStreamFrameEventStart at 503482.09ms
+           k_EStreamFrameEventCaptureBegin at 503482.09ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503482.28ms, delta: 0.18ms
+           k_EStreamFrameEventConvertBegin at 503482.28ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503482.28ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503482.28ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503484.28ms, delta: 2.01ms
+           k_EStreamFrameEventSend at 503484.28ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 503493.91ms, delta: 9.61ms
+           k_EStreamFrameEventDecodeBegin at 503494.34ms, delta: 0.46ms
+           k_EStreamFrameEventDecodeEnd at 503501.38ms, delta: 7.03ms
+           k_EStreamFrameEventComplete at 503553.12ms, delta: 51.74ms
+           total frame time: 71.04ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52004, 93152 bytes, k_EStreamFrameEventStart at 503491.19ms
+           k_EStreamFrameEventCaptureBegin at 503491.19ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503491.44ms, delta: 0.23ms
+           k_EStreamFrameEventConvertBegin at 503491.44ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503491.44ms, delta: 0.02ms
+           k_EStreamFrameEventEncodeBegin at 503491.44ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503493.41ms, delta: 1.95ms
+           k_EStreamFrameEventSend at 503493.41ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 503504.75ms, delta: 11.35ms
+           k_EStreamFrameEventDecodeBegin at 503511.06ms, delta: 6.33ms
+           k_EStreamFrameEventDecodeEnd at 503511.69ms, delta: 0.61ms
+           k_EStreamFrameEventComplete at 503553.16ms, delta: 41.46ms
+           total frame time: 61.95ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52005, 64046 bytes, k_EStreamFrameEventStart at 503499.38ms
+           k_EStreamFrameEventCaptureBegin at 503499.38ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503499.59ms, delta: 0.21ms
+           k_EStreamFrameEventConvertBegin at 503499.59ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503499.59ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503499.59ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503501.56ms, delta: 1.97ms
+           k_EStreamFrameEventSend at 503501.59ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 503505.00ms, delta: 3.42ms
+           k_EStreamFrameEventDecodeBegin at 503511.84ms, delta: 6.85ms
+           k_EStreamFrameEventDecodeEnd at 503515.62ms, delta: 3.78ms
+           k_EStreamFrameEventComplete at 503553.16ms, delta: 37.51ms
+           total frame time: 53.76ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52006, 83934 bytes, k_EStreamFrameEventStart at 503507.66ms
+           k_EStreamFrameEventCaptureBegin at 503507.66ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503507.81ms, delta: 0.18ms
+           k_EStreamFrameEventConvertBegin at 503507.81ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503507.81ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503507.81ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503509.81ms, delta: 1.98ms
+           k_EStreamFrameEventSend at 503509.81ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 503517.22ms, delta: 7.40ms
+           k_EStreamFrameEventDecodeBegin at 503520.34ms, delta: 3.11ms
+           k_EStreamFrameEventDecodeEnd at 503520.69ms, delta: 0.34ms
+           k_EStreamFrameEventComplete at 503553.16ms, delta: 32.49ms
+           total frame time: 45.52ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52007, 103260 bytes, k_EStreamFrameEventStart at 503515.62ms
+           k_EStreamFrameEventCaptureBegin at 503515.62ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503515.81ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 503515.81ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503515.81ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503515.81ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503517.81ms, delta: 1.98ms
+           k_EStreamFrameEventSend at 503517.81ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 503535.47ms, delta: 17.67ms
+           k_EStreamFrameEventDecodeBegin at 503540.09ms, delta: 4.61ms
+           k_EStreamFrameEventDecodeEnd at 503542.47ms, delta: 2.38ms
+           k_EStreamFrameEventComplete at 503553.16ms, delta: 10.70ms
+           total frame time: 37.54ms, result = k_EStreamFrameResultDroppedLate
+NETWORK: Ping: 0.27ms, Server: 74015 Kbit/s, Client: 36 Kbit/s, Link: 100000 Kbit/s, Packet loss: 0.00%
+Frame: 52008, 92897 bytes, k_EStreamFrameEventStart at 503523.50ms
+           k_EStreamFrameEventCaptureBegin at 503523.50ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503523.72ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 503523.72ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 503523.72ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503523.72ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503525.69ms, delta: 1.97ms
+           k_EStreamFrameEventSend at 503525.72ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 503543.28ms, delta: 17.58ms
+           k_EStreamFrameEventDecodeBegin at 503543.97ms, delta: 0.69ms
+           k_EStreamFrameEventDecodeEnd at 503545.47ms, delta: 1.48ms
+           k_EStreamFrameEventUploadBegin at 503553.19ms, delta: 7.72ms
+           k_EStreamFrameEventUploadEnd at 503553.28ms, delta: 0.09ms
+           k_EStreamFrameEventComplete at 503571.69ms, delta: 18.43ms
+           total frame time: 48.19ms, result = k_EStreamFrameResultDisplayed
+Frame: 52010, 84069 bytes, k_EStreamFrameEventStart at 503541.00ms
+           k_EStreamFrameEventCaptureBegin at 503541.00ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503541.19ms, delta: 0.21ms
+           k_EStreamFrameEventConvertBegin at 503541.19ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503541.22ms, delta: 0.02ms
+           k_EStreamFrameEventEncodeBegin at 503541.22ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503543.19ms, delta: 1.98ms
+           k_EStreamFrameEventSend at 503543.22ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 503549.22ms, delta: 6.00ms
+           k_EStreamFrameEventDecodeBegin at 503554.88ms, delta: 5.66ms
+           k_EStreamFrameEventDecodeEnd at 503556.06ms, delta: 1.21ms
+           k_EStreamFrameEventComplete at 503613.97ms, delta: 57.91ms
+           total frame time: 73.00ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52011, 84911 bytes, k_EStreamFrameEventStart at 503548.19ms
+           k_EStreamFrameEventCaptureBegin at 503548.19ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503548.34ms, delta: 0.18ms
+           k_EStreamFrameEventConvertBegin at 503548.38ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 503548.38ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503548.38ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503550.34ms, delta: 1.98ms
+           k_EStreamFrameEventSend at 503550.34ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 503558.50ms, delta: 8.15ms
+           k_EStreamFrameEventDecodeBegin at 503559.97ms, delta: 1.46ms
+           k_EStreamFrameEventDecodeEnd at 503561.00ms, delta: 1.02ms
+           k_EStreamFrameEventComplete at 503615.19ms, delta: 54.18ms
+           total frame time: 67.00ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52012, 117586 bytes, k_EStreamFrameEventStart at 503558.09ms
+           k_EStreamFrameEventCaptureBegin at 503558.09ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503558.28ms, delta: 0.18ms
+           k_EStreamFrameEventConvertBegin at 503558.31ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 503558.31ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503558.31ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503560.28ms, delta: 1.98ms
+           k_EStreamFrameEventSend at 503560.31ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 503580.91ms, delta: 20.60ms
+           k_EStreamFrameEventDecodeBegin at 503581.28ms, delta: 0.37ms
+           k_EStreamFrameEventDecodeEnd at 503581.72ms, delta: 0.44ms
+           k_EStreamFrameEventComplete at 503615.19ms, delta: 33.48ms
+           total frame time: 57.08ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52013, 113142 bytes, k_EStreamFrameEventStart at 503565.12ms
+           k_EStreamFrameEventCaptureBegin at 503565.12ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503565.34ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 503565.34ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503565.34ms, delta: 0.02ms
+           k_EStreamFrameEventEncodeBegin at 503565.34ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503567.31ms, delta: 1.97ms
+           k_EStreamFrameEventSend at 503567.34ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 503590.31ms, delta: 22.98ms
+           k_EStreamFrameEventDecodeBegin at 503590.62ms, delta: 0.31ms
+           k_EStreamFrameEventDecodeEnd at 503592.62ms, delta: 2.00ms
+           k_EStreamFrameEventComplete at 503615.22ms, delta: 22.58ms
+           total frame time: 50.06ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52015, 92369 bytes, k_EStreamFrameEventStart at 503581.34ms
+           k_EStreamFrameEventCaptureBegin at 503581.34ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503581.53ms, delta: 0.18ms
+           k_EStreamFrameEventConvertBegin at 503581.53ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 503581.53ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503581.53ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503583.56ms, delta: 2.01ms
+           k_EStreamFrameEventSend at 503583.56ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 503597.84ms, delta: 14.28ms
+           k_EStreamFrameEventDecodeBegin at 503598.56ms, delta: 0.70ms
+           k_EStreamFrameEventDecodeEnd at 503598.97ms, delta: 0.40ms
+           k_EStreamFrameEventComplete at 503615.25ms, delta: 16.28ms
+           total frame time: 33.89ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52016, 66831 bytes, k_EStreamFrameEventStart at 503590.81ms
+           k_EStreamFrameEventCaptureBegin at 503590.81ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503591.00ms, delta: 0.18ms
+           k_EStreamFrameEventConvertBegin at 503591.00ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 503591.00ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503591.00ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503592.97ms, delta: 1.97ms
+           k_EStreamFrameEventSend at 503592.97ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 503603.84ms, delta: 10.86ms
+           k_EStreamFrameEventDecodeBegin at 503605.97ms, delta: 2.14ms
+           k_EStreamFrameEventDecodeEnd at 503607.84ms, delta: 1.88ms
+           k_EStreamFrameEventComplete at 503615.25ms, delta: 7.42ms
+           total frame time: 24.46ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52017, 48271 bytes, k_EStreamFrameEventStart at 503598.38ms
+           k_EStreamFrameEventCaptureBegin at 503598.38ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503598.56ms, delta: 0.18ms
+           k_EStreamFrameEventConvertBegin at 503598.56ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 503598.56ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503598.56ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503600.53ms, delta: 1.97ms
+           k_EStreamFrameEventSend at 503600.56ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 503603.94ms, delta: 3.37ms
+           k_EStreamFrameEventDecodeBegin at 503608.00ms, delta: 4.07ms
+           k_EStreamFrameEventDecodeEnd at 503608.19ms, delta: 0.20ms
+           k_EStreamFrameEventUploadBegin at 503615.31ms, delta: 7.13ms
+           k_EStreamFrameEventUploadEnd at 503615.50ms, delta: 0.18ms
+           k_EStreamFrameEventComplete at 503632.03ms, delta: 16.53ms
+           total frame time: 33.66ms, result = k_EStreamFrameResultDisplayed
+Frame: 52018, 59889 bytes, k_EStreamFrameEventStart at 503607.72ms
+           k_EStreamFrameEventCaptureBegin at 503607.72ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503607.91ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 503607.91ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503607.91ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503607.91ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503609.88ms, delta: 1.95ms
+           k_EStreamFrameEventSend at 503609.88ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 503621.06ms, delta: 11.20ms
+           k_EStreamFrameEventDecodeBegin at 503622.75ms, delta: 1.68ms
+           k_EStreamFrameEventDecodeEnd at 503625.09ms, delta: 2.37ms
+           k_EStreamFrameEventUploadBegin at 503632.72ms, delta: 7.60ms
+           k_EStreamFrameEventUploadEnd at 503632.75ms, delta: 0.05ms
+           k_EStreamFrameEventComplete at 503641.78ms, delta: 9.02ms
+           total frame time: 34.06ms, result = k_EStreamFrameResultDisplayed
+Frame: 52019, 111805 bytes, k_EStreamFrameEventStart at 503615.00ms
+           k_EStreamFrameEventCaptureBegin at 503615.00ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503615.19ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 503615.19ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503615.19ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503615.19ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503617.22ms, delta: 2.03ms
+           k_EStreamFrameEventSend at 503617.22ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 503630.44ms, delta: 13.21ms
+           k_EStreamFrameEventDecodeBegin at 503631.06ms, delta: 0.61ms
+           k_EStreamFrameEventDecodeEnd at 503632.81ms, delta: 1.75ms
+           k_EStreamFrameEventComplete at 503641.88ms, delta: 9.05ms
+           total frame time: 26.87ms, result = k_EStreamFrameResultDroppedLate
+NETWORK: Ping: 0.27ms, Server: 74015 Kbit/s, Client: 36 Kbit/s, Link: 100000 Kbit/s, Packet loss: 0.00%
+Frame: 52020, 79450 bytes, k_EStreamFrameEventStart at 503624.62ms
+           k_EStreamFrameEventCaptureBegin at 503624.62ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503624.88ms, delta: 0.24ms
+           k_EStreamFrameEventConvertBegin at 503624.88ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503624.91ms, delta: 0.02ms
+           k_EStreamFrameEventEncodeBegin at 503624.91ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503626.88ms, delta: 1.98ms
+           k_EStreamFrameEventSend at 503626.91ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 503634.09ms, delta: 7.19ms
+           k_EStreamFrameEventDecodeBegin at 503640.38ms, delta: 6.29ms
+           k_EStreamFrameEventDecodeEnd at 503641.09ms, delta: 0.72ms
+           k_EStreamFrameEventUploadBegin at 503641.88ms, delta: 0.78ms
+           k_EStreamFrameEventUploadEnd at 503641.88ms, delta: 0.00ms
+           k_EStreamFrameEventComplete at 503651.41ms, delta: 9.54ms
+           total frame time: 26.76ms, result = k_EStreamFrameResultDisplayed
+Frame: 52021, 65573 bytes, k_EStreamFrameEventStart at 503632.81ms
+           k_EStreamFrameEventCaptureBegin at 503632.81ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503633.00ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 503633.00ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503633.00ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503633.00ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503635.00ms, delta: 1.98ms
+           k_EStreamFrameEventSend at 503635.00ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 503642.59ms, delta: 7.60ms
+           k_EStreamFrameEventDecodeBegin at 503642.88ms, delta: 0.29ms
+           k_EStreamFrameEventDecodeEnd at 503645.34ms, delta: 2.47ms
+           k_EStreamFrameEventUploadBegin at 503651.53ms, delta: 6.16ms
+           k_EStreamFrameEventUploadEnd at 503651.53ms, delta: 0.02ms
+           k_EStreamFrameEventComplete at 503661.19ms, delta: 9.66ms
+           total frame time: 28.38ms, result = k_EStreamFrameResultDisplayed
+Frame: 52022, 109396 bytes, k_EStreamFrameEventStart at 503641.06ms
+           k_EStreamFrameEventCaptureBegin at 503641.06ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503641.28ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 503641.28ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503641.28ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503641.28ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503643.22ms, delta: 1.97ms
+           k_EStreamFrameEventSend at 503643.25ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 503656.34ms, delta: 13.09ms
+           k_EStreamFrameEventDecodeBegin at 503659.22ms, delta: 2.87ms
+           k_EStreamFrameEventDecodeEnd at 503659.88ms, delta: 0.67ms
+           k_EStreamFrameEventUploadBegin at 503661.50ms, delta: 1.63ms
+           k_EStreamFrameEventUploadEnd at 503661.81ms, delta: 0.31ms
+           k_EStreamFrameEventComplete at 503681.53ms, delta: 19.70ms
+           total frame time: 40.45ms, result = k_EStreamFrameResultDisplayed
+Frame: 52023, 45575 bytes, k_EStreamFrameEventStart at 503649.31ms
+           k_EStreamFrameEventCaptureBegin at 503649.31ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503649.56ms, delta: 0.24ms
+           k_EStreamFrameEventConvertBegin at 503649.56ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503649.56ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503649.56ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503651.53ms, delta: 1.97ms
+           k_EStreamFrameEventSend at 503651.53ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 503660.19ms, delta: 8.65ms
+           k_EStreamFrameEventDecodeBegin at 503660.34ms, delta: 0.15ms
+           k_EStreamFrameEventDecodeEnd at 503668.69ms, delta: 8.35ms
+           k_EStreamFrameEventComplete at 503685.38ms, delta: 16.68ms
+           total frame time: 36.04ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52024, 69136 bytes, k_EStreamFrameEventStart at 503656.38ms
+           k_EStreamFrameEventCaptureBegin at 503656.38ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503656.56ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 503656.56ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503656.56ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503656.56ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503658.53ms, delta: 1.95ms
+           k_EStreamFrameEventSend at 503658.53ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 503661.97ms, delta: 3.43ms
+           k_EStreamFrameEventDecodeBegin at 503669.06ms, delta: 7.10ms
+           k_EStreamFrameEventDecodeEnd at 503669.31ms, delta: 0.27ms
+           k_EStreamFrameEventComplete at 503685.44ms, delta: 16.11ms
+           total frame time: 29.07ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52025, 112070 bytes, k_EStreamFrameEventStart at 503665.75ms
+           k_EStreamFrameEventCaptureBegin at 503665.75ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503665.97ms, delta: 0.21ms
+           k_EStreamFrameEventConvertBegin at 503665.97ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 503665.97ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503665.97ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503667.97ms, delta: 1.98ms
+           k_EStreamFrameEventSend at 503667.97ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 503675.28ms, delta: 7.31ms
+           k_EStreamFrameEventDecodeBegin at 503677.28ms, delta: 2.01ms
+           k_EStreamFrameEventDecodeEnd at 503678.12ms, delta: 0.84ms
+           k_EStreamFrameEventUploadBegin at 503685.53ms, delta: 7.39ms
+           k_EStreamFrameEventUploadEnd at 503685.66ms, delta: 0.14ms
+           k_EStreamFrameEventComplete at 503700.69ms, delta: 15.05ms
+           total frame time: 34.96ms, result = k_EStreamFrameResultDisplayed
+Frame: 52026, 81172 bytes, k_EStreamFrameEventStart at 503673.75ms
+           k_EStreamFrameEventCaptureBegin at 503673.75ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503673.94ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 503673.94ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503673.94ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503673.94ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503675.94ms, delta: 1.98ms
+           k_EStreamFrameEventSend at 503675.94ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 503681.91ms, delta: 5.97ms
+           k_EStreamFrameEventDecodeBegin at 503686.19ms, delta: 4.30ms
+           k_EStreamFrameEventDecodeEnd at 503686.56ms, delta: 0.35ms
+           k_EStreamFrameEventComplete at 503701.91ms, delta: 15.35ms
+           total frame time: 28.15ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52027, 88103 bytes, k_EStreamFrameEventStart at 503682.22ms
+           k_EStreamFrameEventCaptureBegin at 503682.22ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503682.41ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 503682.41ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503682.41ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503682.41ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503684.38ms, delta: 1.97ms
+           k_EStreamFrameEventSend at 503684.38ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 503699.31ms, delta: 14.94ms
+           k_EStreamFrameEventDecodeBegin at 503699.62ms, delta: 0.29ms
+           k_EStreamFrameEventDecodeEnd at 503700.16ms, delta: 0.55ms
+           k_EStreamFrameEventUploadBegin at 503703.31ms, delta: 3.16ms
+           k_EStreamFrameEventUploadEnd at 503703.38ms, delta: 0.05ms
+           k_EStreamFrameEventComplete at 503711.16ms, delta: 7.80ms
+           total frame time: 28.96ms, result = k_EStreamFrameResultDisplayed
+Frame: 52028, 81615 bytes, k_EStreamFrameEventStart at 503691.31ms
+           k_EStreamFrameEventCaptureBegin at 503691.31ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503691.50ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 503691.53ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 503691.53ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503691.53ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503693.47ms, delta: 1.95ms
+           k_EStreamFrameEventSend at 503693.50ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 503705.62ms, delta: 12.13ms
+           k_EStreamFrameEventDecodeBegin at 503708.34ms, delta: 2.70ms
+           k_EStreamFrameEventDecodeEnd at 503708.81ms, delta: 0.47ms
+           k_EStreamFrameEventUploadBegin at 503711.66ms, delta: 2.87ms
+           k_EStreamFrameEventUploadEnd at 503711.75ms, delta: 0.08ms
+           k_EStreamFrameEventComplete at 503720.22ms, delta: 8.47ms
+           total frame time: 28.90ms, result = k_EStreamFrameResultDisplayed
+Frame: 52030, 102419 bytes, k_EStreamFrameEventStart at 503707.66ms
+           k_EStreamFrameEventCaptureBegin at 503707.66ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503707.88ms, delta: 0.23ms
+           k_EStreamFrameEventConvertBegin at 503707.91ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 503707.91ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503707.91ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503709.91ms, delta: 2.01ms
+           k_EStreamFrameEventSend at 503709.91ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 503729.69ms, delta: 19.78ms
+           k_EStreamFrameEventDecodeBegin at 503729.94ms, delta: 0.26ms
+           k_EStreamFrameEventDecodeEnd at 503730.53ms, delta: 0.58ms
+           k_EStreamFrameEventUploadBegin at 503730.66ms, delta: 0.14ms
+           k_EStreamFrameEventUploadEnd at 503730.69ms, delta: 0.03ms
+           k_EStreamFrameEventComplete at 503741.97ms, delta: 11.28ms
+           total frame time: 34.32ms, result = k_EStreamFrameResultDisplayed
+NETWORK: Ping: 0.27ms, Server: 74015 Kbit/s, Client: 36 Kbit/s, Link: 100000 Kbit/s, Packet loss: 0.00%
+Frame: 52031, 74313 bytes, k_EStreamFrameEventStart at 503716.81ms
+           k_EStreamFrameEventCaptureBegin at 503716.81ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503716.97ms, delta: 0.18ms
+           k_EStreamFrameEventConvertBegin at 503717.00ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 503717.00ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503717.00ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503718.97ms, delta: 1.97ms
+           k_EStreamFrameEventSend at 503718.97ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 503736.34ms, delta: 17.36ms
+           k_EStreamFrameEventDecodeBegin at 503739.69ms, delta: 3.34ms
+           k_EStreamFrameEventDecodeEnd at 503740.06ms, delta: 0.37ms
+           k_EStreamFrameEventUploadBegin at 503742.16ms, delta: 2.09ms
+           k_EStreamFrameEventUploadEnd at 503742.16ms, delta: 0.02ms
+           k_EStreamFrameEventComplete at 503751.72ms, delta: 9.57ms
+           total frame time: 34.93ms, result = k_EStreamFrameResultDisplayed
+Frame: 52033, 78575 bytes, k_EStreamFrameEventStart at 503732.25ms
+           k_EStreamFrameEventCaptureBegin at 503732.25ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503732.44ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 503732.44ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 503732.44ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503732.44ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503734.44ms, delta: 1.98ms
+           k_EStreamFrameEventSend at 503734.44ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 503742.56ms, delta: 8.12ms
+           k_EStreamFrameEventDecodeBegin at 503742.94ms, delta: 0.38ms
+           k_EStreamFrameEventDecodeEnd at 503743.47ms, delta: 0.52ms
+           k_EStreamFrameEventUploadBegin at 503751.94ms, delta: 8.48ms
+           k_EStreamFrameEventUploadEnd at 503751.94ms, delta: 0.00ms
+           k_EStreamFrameEventComplete at 503761.62ms, delta: 9.66ms
+           total frame time: 29.37ms, result = k_EStreamFrameResultDisplayed
+Frame: 52034, 43936 bytes, k_EStreamFrameEventStart at 503741.41ms
+           k_EStreamFrameEventCaptureBegin at 503741.41ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503741.59ms, delta: 0.18ms
+           k_EStreamFrameEventConvertBegin at 503741.59ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 503741.59ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503741.59ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503743.56ms, delta: 1.95ms
+           k_EStreamFrameEventSend at 503743.56ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 503752.88ms, delta: 9.31ms
+           k_EStreamFrameEventDecodeBegin at 503759.09ms, delta: 6.20ms
+           k_EStreamFrameEventDecodeEnd at 503759.28ms, delta: 0.21ms
+           k_EStreamFrameEventUploadBegin at 503761.72ms, delta: 2.44ms
+           k_EStreamFrameEventUploadEnd at 503761.75ms, delta: 0.02ms
+           k_EStreamFrameEventComplete at 503774.66ms, delta: 12.91ms
+           total frame time: 33.25ms, result = k_EStreamFrameResultDisplayed
+Frame: 52035, 110192 bytes, k_EStreamFrameEventStart at 503749.44ms
+           k_EStreamFrameEventCaptureBegin at 503749.44ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503749.66ms, delta: 0.21ms
+           k_EStreamFrameEventConvertBegin at 503749.66ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503749.66ms, delta: 0.02ms
+           k_EStreamFrameEventEncodeBegin at 503749.66ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503751.66ms, delta: 1.98ms
+           k_EStreamFrameEventSend at 503751.66ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 503764.06ms, delta: 12.41ms
+           k_EStreamFrameEventDecodeBegin at 503765.25ms, delta: 1.19ms
+           k_EStreamFrameEventDecodeEnd at 503769.47ms, delta: 4.23ms
+           k_EStreamFrameEventComplete at 503775.03ms, delta: 5.57ms
+           total frame time: 25.60ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52036, 56893 bytes, k_EStreamFrameEventStart at 503756.44ms
+           k_EStreamFrameEventCaptureBegin at 503756.44ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503756.62ms, delta: 0.18ms
+           k_EStreamFrameEventConvertBegin at 503756.62ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 503756.62ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503756.62ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503758.59ms, delta: 1.95ms
+           k_EStreamFrameEventSend at 503758.59ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 503765.12ms, delta: 6.52ms
+           k_EStreamFrameEventDecodeBegin at 503769.50ms, delta: 4.36ms
+           k_EStreamFrameEventDecodeEnd at 503771.41ms, delta: 1.91ms
+           k_EStreamFrameEventUploadBegin at 503775.06ms, delta: 3.66ms
+           k_EStreamFrameEventUploadEnd at 503775.06ms, delta: 0.02ms
+           k_EStreamFrameEventComplete at 503790.56ms, delta: 15.49ms
+           total frame time: 34.12ms, result = k_EStreamFrameResultDisplayed
+Frame: 52037, 80726 bytes, k_EStreamFrameEventStart at 503766.41ms
+           k_EStreamFrameEventCaptureBegin at 503766.41ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503766.59ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 503766.62ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 503766.62ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503766.62ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503768.56ms, delta: 1.95ms
+           k_EStreamFrameEventSend at 503768.59ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 503788.59ms, delta: 20.02ms
+           k_EStreamFrameEventDecodeBegin at 503788.84ms, delta: 0.24ms
+           k_EStreamFrameEventDecodeEnd at 503789.19ms, delta: 0.34ms
+           k_EStreamFrameEventUploadBegin at 503790.72ms, delta: 1.53ms
+           k_EStreamFrameEventUploadEnd at 503790.72ms, delta: 0.02ms
+           k_EStreamFrameEventComplete at 503801.62ms, delta: 10.91ms
+           total frame time: 35.23ms, result = k_EStreamFrameResultDisplayed
+Frame: 52038, 67458 bytes, k_EStreamFrameEventStart at 503773.25ms
+           k_EStreamFrameEventCaptureBegin at 503773.25ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503773.44ms, delta: 0.18ms
+           k_EStreamFrameEventConvertBegin at 503773.44ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 503773.44ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503773.44ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503775.38ms, delta: 1.95ms
+           k_EStreamFrameEventSend at 503775.38ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 503794.38ms, delta: 18.98ms
+           k_EStreamFrameEventDecodeBegin at 503796.94ms, delta: 2.56ms
+           k_EStreamFrameEventDecodeEnd at 503798.88ms, delta: 1.95ms
+           k_EStreamFrameEventUploadBegin at 503801.91ms, delta: 3.02ms
+           k_EStreamFrameEventUploadEnd at 503801.97ms, delta: 0.05ms
+           k_EStreamFrameEventComplete at 503822.44ms, delta: 20.48ms
+           total frame time: 49.19ms, result = k_EStreamFrameResultDisplayed
+Frame: 52040, 94954 bytes, k_EStreamFrameEventStart at 503789.50ms
+           k_EStreamFrameEventCaptureBegin at 503789.50ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503789.72ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 503789.72ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503789.72ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503789.72ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503791.69ms, delta: 1.98ms
+           k_EStreamFrameEventSend at 503791.69ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 503802.34ms, delta: 10.65ms
+           k_EStreamFrameEventDecodeBegin at 503804.69ms, delta: 2.32ms
+           k_EStreamFrameEventDecodeEnd at 503808.22ms, delta: 3.56ms
+           k_EStreamFrameEventComplete at 503823.09ms, delta: 14.88ms
+           total frame time: 33.60ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52041, 109478 bytes, k_EStreamFrameEventStart at 503798.25ms
+           k_EStreamFrameEventCaptureBegin at 503798.25ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503798.47ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 503798.47ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503798.47ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503798.47ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503800.53ms, delta: 2.06ms
+           k_EStreamFrameEventSend at 503800.53ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 503811.50ms, delta: 10.97ms
+           k_EStreamFrameEventDecodeBegin at 503812.47ms, delta: 0.95ms
+           k_EStreamFrameEventDecodeEnd at 503819.22ms, delta: 6.76ms
+           k_EStreamFrameEventComplete at 503823.09ms, delta: 3.89ms
+           total frame time: 24.84ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52042, 89746 bytes, k_EStreamFrameEventStart at 503808.31ms
+           k_EStreamFrameEventCaptureBegin at 503808.31ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503808.50ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 503808.50ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503808.50ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503808.50ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503810.47ms, delta: 1.97ms
+           k_EStreamFrameEventSend at 503810.50ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 503814.41ms, delta: 3.91ms
+           k_EStreamFrameEventDecodeBegin at 503819.69ms, delta: 5.29ms
+           k_EStreamFrameEventDecodeEnd at 503820.88ms, delta: 1.19ms
+           k_EStreamFrameEventUploadBegin at 503823.12ms, delta: 2.24ms
+           k_EStreamFrameEventUploadEnd at 503823.16ms, delta: 0.05ms
+           k_EStreamFrameEventComplete at 503841.28ms, delta: 18.11ms
+           total frame time: 32.97ms, result = k_EStreamFrameResultDisplayed
+NETWORK: Ping: 0.27ms, Server: 74015 Kbit/s, Client: 36 Kbit/s, Link: 100000 Kbit/s, Packet loss: 0.00%
+Frame: 52043, 98895 bytes, k_EStreamFrameEventStart at 503815.47ms
+           k_EStreamFrameEventCaptureBegin at 503815.47ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503815.66ms, delta: 0.18ms
+           k_EStreamFrameEventConvertBegin at 503815.69ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 503815.69ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503815.69ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503817.66ms, delta: 1.97ms
+           k_EStreamFrameEventSend at 503817.66ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 503827.41ms, delta: 9.75ms
+           k_EStreamFrameEventDecodeBegin at 503828.41ms, delta: 0.99ms
+           k_EStreamFrameEventDecodeEnd at 503828.81ms, delta: 0.41ms
+           k_EStreamFrameEventComplete at 503843.31ms, delta: 14.51ms
+           total frame time: 27.85ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52044, 96371 bytes, k_EStreamFrameEventStart at 503824.44ms
+           k_EStreamFrameEventCaptureBegin at 503824.44ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503824.62ms, delta: 0.18ms
+           k_EStreamFrameEventConvertBegin at 503824.62ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503824.62ms, delta: 0.02ms
+           k_EStreamFrameEventEncodeBegin at 503824.62ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503826.62ms, delta: 1.98ms
+           k_EStreamFrameEventSend at 503826.62ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 503834.19ms, delta: 7.58ms
+           k_EStreamFrameEventDecodeBegin at 503837.41ms, delta: 3.20ms
+           k_EStreamFrameEventDecodeEnd at 503837.88ms, delta: 0.49ms
+           k_EStreamFrameEventUploadBegin at 503843.41ms, delta: 5.51ms
+           k_EStreamFrameEventUploadEnd at 503845.22ms, delta: 1.83ms
+           k_EStreamFrameEventComplete at 503864.28ms, delta: 19.04ms
+           total frame time: 39.84ms, result = k_EStreamFrameResultDisplayed
+Frame: 52045, 78670 bytes, k_EStreamFrameEventStart at 503831.56ms
+           k_EStreamFrameEventCaptureBegin at 503831.56ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503831.75ms, delta: 0.18ms
+           k_EStreamFrameEventConvertBegin at 503831.75ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 503831.75ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503831.75ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503833.72ms, delta: 1.97ms
+           k_EStreamFrameEventSend at 503833.72ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 503841.88ms, delta: 8.16ms
+           k_EStreamFrameEventDecodeBegin at 503846.34ms, delta: 4.47ms
+           k_EStreamFrameEventDecodeEnd at 503846.81ms, delta: 0.46ms
+           k_EStreamFrameEventComplete at 503944.59ms, delta: 97.78ms
+           total frame time: 113.04ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52046, 91203 bytes, k_EStreamFrameEventStart at 503840.97ms
+           k_EStreamFrameEventCaptureBegin at 503840.97ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503841.16ms, delta: 0.18ms
+           k_EStreamFrameEventConvertBegin at 503841.16ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 503841.16ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503841.16ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503843.12ms, delta: 1.97ms
+           k_EStreamFrameEventSend at 503843.12ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 503851.12ms, delta: 7.98ms
+           k_EStreamFrameEventDecodeBegin at 503862.34ms, delta: 11.23ms
+           k_EStreamFrameEventDecodeEnd at 503863.50ms, delta: 1.16ms
+           k_EStreamFrameEventComplete at 503944.66ms, delta: 81.13ms
+           total frame time: 103.67ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52047, 65068 bytes, k_EStreamFrameEventStart at 503848.69ms
+           k_EStreamFrameEventCaptureBegin at 503848.69ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503848.91ms, delta: 0.21ms
+           k_EStreamFrameEventConvertBegin at 503848.94ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 503848.94ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503848.94ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503850.88ms, delta: 1.95ms
+           k_EStreamFrameEventSend at 503850.91ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 503856.22ms, delta: 5.33ms
+           k_EStreamFrameEventDecodeBegin at 503865.03ms, delta: 8.80ms
+           k_EStreamFrameEventDecodeEnd at 503866.12ms, delta: 1.11ms
+           k_EStreamFrameEventComplete at 503944.66ms, delta: 78.52ms
+           total frame time: 95.96ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52048, 66494 bytes, k_EStreamFrameEventStart at 503857.19ms
+           k_EStreamFrameEventCaptureBegin at 503857.19ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503857.41ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 503857.41ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503857.41ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503857.41ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503859.34ms, delta: 1.95ms
+           k_EStreamFrameEventSend at 503859.38ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 503877.78ms, delta: 18.43ms
+           k_EStreamFrameEventDecodeBegin at 503880.62ms, delta: 2.82ms
+           k_EStreamFrameEventDecodeEnd at 503881.50ms, delta: 0.87ms
+           k_EStreamFrameEventComplete at 503944.66ms, delta: 63.17ms
+           total frame time: 87.46ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52049, 117283 bytes, k_EStreamFrameEventStart at 503865.00ms
+           k_EStreamFrameEventCaptureBegin at 503865.00ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503865.22ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 503865.22ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 503865.22ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503865.22ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503867.22ms, delta: 2.01ms
+           k_EStreamFrameEventSend at 503867.25ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 503886.75ms, delta: 19.50ms
+           k_EStreamFrameEventDecodeBegin at 503890.97ms, delta: 4.23ms
+           k_EStreamFrameEventDecodeEnd at 503891.72ms, delta: 0.73ms
+           k_EStreamFrameEventComplete at 503944.66ms, delta: 52.96ms
+           total frame time: 79.67ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52051, 99826 bytes, k_EStreamFrameEventStart at 503882.78ms
+           k_EStreamFrameEventCaptureBegin at 503882.78ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503882.97ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 503882.97ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503882.97ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503882.97ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503884.97ms, delta: 2.01ms
+           k_EStreamFrameEventSend at 503885.00ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 503895.09ms, delta: 10.09ms
+           k_EStreamFrameEventDecodeBegin at 503896.16ms, delta: 1.08ms
+           k_EStreamFrameEventDecodeEnd at 503900.22ms, delta: 4.06ms
+           k_EStreamFrameEventComplete at 503944.69ms, delta: 44.48ms
+           total frame time: 61.94ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52052, 96447 bytes, k_EStreamFrameEventStart at 503889.75ms
+           k_EStreamFrameEventCaptureBegin at 503889.75ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503889.94ms, delta: 0.18ms
+           k_EStreamFrameEventConvertBegin at 503889.97ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 503889.97ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503889.97ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503891.94ms, delta: 1.98ms
+           k_EStreamFrameEventSend at 503891.94ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 503903.25ms, delta: 11.32ms
+           k_EStreamFrameEventDecodeBegin at 503904.09ms, delta: 0.82ms
+           k_EStreamFrameEventDecodeEnd at 503910.25ms, delta: 6.16ms
+           k_EStreamFrameEventComplete at 503944.72ms, delta: 34.47ms
+           total frame time: 54.96ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52053, 77099 bytes, k_EStreamFrameEventStart at 503898.41ms
+           k_EStreamFrameEventCaptureBegin at 503898.41ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503898.59ms, delta: 0.21ms
+           k_EStreamFrameEventConvertBegin at 503898.62ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 503898.62ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503898.62ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503900.56ms, delta: 1.94ms
+           k_EStreamFrameEventSend at 503900.56ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 503904.31ms, delta: 3.74ms
+           k_EStreamFrameEventDecodeBegin at 503910.62ms, delta: 6.30ms
+           k_EStreamFrameEventDecodeEnd at 503912.25ms, delta: 1.63ms
+           k_EStreamFrameEventComplete at 503944.72ms, delta: 32.47ms
+           total frame time: 46.33ms, result = k_EStreamFrameResultDroppedLate
+NETWORK: Ping: 0.27ms, Server: 74015 Kbit/s, Client: 36 Kbit/s, Link: 100000 Kbit/s, Packet loss: 0.00%
+Frame: 52054, 55059 bytes, k_EStreamFrameEventStart at 503907.97ms
+           k_EStreamFrameEventCaptureBegin at 503907.97ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503908.16ms, delta: 0.18ms
+           k_EStreamFrameEventConvertBegin at 503908.16ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503908.16ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503908.16ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503910.12ms, delta: 1.97ms
+           k_EStreamFrameEventSend at 503910.12ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 503922.66ms, delta: 12.53ms
+           k_EStreamFrameEventDecodeBegin at 503925.03ms, delta: 2.37ms
+           k_EStreamFrameEventDecodeEnd at 503928.66ms, delta: 3.63ms
+           k_EStreamFrameEventComplete at 503944.72ms, delta: 16.07ms
+           total frame time: 36.76ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52055, 116341 bytes, k_EStreamFrameEventStart at 503917.03ms
+           k_EStreamFrameEventCaptureBegin at 503917.03ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503917.22ms, delta: 0.18ms
+           k_EStreamFrameEventConvertBegin at 503917.22ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 503917.22ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503917.22ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503919.22ms, delta: 2.00ms
+           k_EStreamFrameEventSend at 503919.25ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 503931.78ms, delta: 12.56ms
+           k_EStreamFrameEventDecodeBegin at 503936.78ms, delta: 4.97ms
+           k_EStreamFrameEventDecodeEnd at 503938.47ms, delta: 1.71ms
+           k_EStreamFrameEventComplete at 503944.72ms, delta: 6.24ms
+           total frame time: 27.69ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52056, 58527 bytes, k_EStreamFrameEventStart at 503925.62ms
+           k_EStreamFrameEventCaptureBegin at 503925.62ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503925.81ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 503925.81ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503925.81ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503925.81ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503927.81ms, delta: 1.98ms
+           k_EStreamFrameEventSend at 503927.81ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 503931.97ms, delta: 4.15ms
+           k_EStreamFrameEventDecodeBegin at 503938.88ms, delta: 6.93ms
+           k_EStreamFrameEventDecodeEnd at 503939.78ms, delta: 0.90ms
+           k_EStreamFrameEventUploadBegin at 503944.75ms, delta: 4.96ms
+           k_EStreamFrameEventUploadEnd at 503945.09ms, delta: 0.34ms
+           k_EStreamFrameEventComplete at 503960.66ms, delta: 15.56ms
+           total frame time: 35.02ms, result = k_EStreamFrameResultDisplayed
+Frame: 52057, 83966 bytes, k_EStreamFrameEventStart at 503933.09ms
+           k_EStreamFrameEventCaptureBegin at 503933.09ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503933.31ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 503933.31ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503933.31ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503933.31ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503935.28ms, delta: 1.98ms
+           k_EStreamFrameEventSend at 503935.28ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 503941.59ms, delta: 6.32ms
+           k_EStreamFrameEventDecodeBegin at 503948.00ms, delta: 6.39ms
+           k_EStreamFrameEventDecodeEnd at 503948.53ms, delta: 0.53ms
+           k_EStreamFrameEventUploadBegin at 503963.12ms, delta: 14.59ms
+           k_EStreamFrameEventUploadEnd at 503963.69ms, delta: 0.58ms
+           k_EStreamFrameEventComplete at 503980.28ms, delta: 16.57ms
+           total frame time: 47.16ms, result = k_EStreamFrameResultDisplayed
+Frame: 52058, 88488 bytes, k_EStreamFrameEventStart at 503940.38ms
+           k_EStreamFrameEventCaptureBegin at 503940.38ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503940.56ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 503940.56ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503940.56ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503940.56ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503942.53ms, delta: 1.97ms
+           k_EStreamFrameEventSend at 503942.53ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 503960.84ms, delta: 18.30ms
+           k_EStreamFrameEventDecodeBegin at 503965.28ms, delta: 4.46ms
+           k_EStreamFrameEventDecodeEnd at 503965.66ms, delta: 0.37ms
+           k_EStreamFrameEventComplete at 504033.03ms, delta: 67.37ms
+           total frame time: 92.65ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52059, 118393 bytes, k_EStreamFrameEventStart at 503949.97ms
+           k_EStreamFrameEventCaptureBegin at 503949.97ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503950.16ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 503950.16ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503950.16ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503950.16ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503952.19ms, delta: 2.03ms
+           k_EStreamFrameEventSend at 503952.19ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 503971.25ms, delta: 19.04ms
+           k_EStreamFrameEventDecodeBegin at 503976.22ms, delta: 4.99ms
+           k_EStreamFrameEventDecodeEnd at 503976.94ms, delta: 0.70ms
+           k_EStreamFrameEventComplete at 504033.06ms, delta: 56.14ms
+           total frame time: 83.10ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52060, 97646 bytes, k_EStreamFrameEventStart at 503957.31ms
+           k_EStreamFrameEventCaptureBegin at 503957.31ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503957.53ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 503957.53ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 503957.53ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503957.53ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503959.47ms, delta: 1.94ms
+           k_EStreamFrameEventSend at 503959.50ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 503979.50ms, delta: 20.00ms
+           k_EStreamFrameEventDecodeBegin at 503979.72ms, delta: 0.23ms
+           k_EStreamFrameEventDecodeEnd at 503981.41ms, delta: 1.69ms
+           k_EStreamFrameEventComplete at 504033.09ms, delta: 51.67ms
+           total frame time: 75.76ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52062, 88354 bytes, k_EStreamFrameEventStart at 503974.47ms
+           k_EStreamFrameEventCaptureBegin at 503974.47ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503974.66ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 503974.66ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503974.66ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503974.66ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503976.66ms, delta: 2.00ms
+           k_EStreamFrameEventSend at 503976.69ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 503985.19ms, delta: 8.51ms
+           k_EStreamFrameEventDecodeBegin at 503989.41ms, delta: 4.21ms
+           k_EStreamFrameEventDecodeEnd at 503989.84ms, delta: 0.43ms
+           k_EStreamFrameEventComplete at 504033.09ms, delta: 43.26ms
+           total frame time: 58.62ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52063, 85397 bytes, k_EStreamFrameEventStart at 503982.22ms
+           k_EStreamFrameEventCaptureBegin at 503982.22ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503982.44ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 503982.44ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503982.44ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503982.44ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503984.41ms, delta: 1.98ms
+           k_EStreamFrameEventSend at 503984.41ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 503992.34ms, delta: 7.93ms
+           k_EStreamFrameEventDecodeBegin at 503995.50ms, delta: 3.16ms
+           k_EStreamFrameEventDecodeEnd at 503997.44ms, delta: 1.95ms
+           k_EStreamFrameEventComplete at 504033.12ms, delta: 35.68ms
+           total frame time: 50.90ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52064, 78951 bytes, k_EStreamFrameEventStart at 503990.09ms
+           k_EStreamFrameEventCaptureBegin at 503990.09ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503990.25ms, delta: 0.18ms
+           k_EStreamFrameEventConvertBegin at 503990.25ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503990.25ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503990.25ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 503992.25ms, delta: 1.98ms
+           k_EStreamFrameEventSend at 503992.25ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 504000.59ms, delta: 8.33ms
+           k_EStreamFrameEventDecodeBegin at 504003.41ms, delta: 2.82ms
+           k_EStreamFrameEventDecodeEnd at 504004.12ms, delta: 0.73ms
+           k_EStreamFrameEventComplete at 504033.16ms, delta: 29.01ms
+           total frame time: 43.06ms, result = k_EStreamFrameResultDroppedLate
+NETWORK: Ping: 0.27ms, Server: 74015 Kbit/s, Client: 36 Kbit/s, Link: 100000 Kbit/s, Packet loss: 0.00%
+Frame: 52065, 91371 bytes, k_EStreamFrameEventStart at 503999.69ms
+           k_EStreamFrameEventCaptureBegin at 503999.69ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 503999.88ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 503999.88ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 503999.88ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 503999.88ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 504001.88ms, delta: 2.00ms
+           k_EStreamFrameEventSend at 504001.91ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 504014.94ms, delta: 13.05ms
+           k_EStreamFrameEventDecodeBegin at 504016.66ms, delta: 1.72ms
+           k_EStreamFrameEventDecodeEnd at 504017.12ms, delta: 0.46ms
+           k_EStreamFrameEventComplete at 504033.16ms, delta: 16.02ms
+           total frame time: 33.46ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52066, 76873 bytes, k_EStreamFrameEventStart at 504006.59ms
+           k_EStreamFrameEventCaptureBegin at 504006.59ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 504006.78ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 504006.78ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 504006.78ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 504006.78ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 504008.75ms, delta: 1.97ms
+           k_EStreamFrameEventSend at 504008.78ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 504021.34ms, delta: 12.56ms
+           k_EStreamFrameEventDecodeBegin at 504023.16ms, delta: 1.83ms
+           k_EStreamFrameEventDecodeEnd at 504025.47ms, delta: 2.32ms
+           k_EStreamFrameEventUploadBegin at 504033.19ms, delta: 7.69ms
+           k_EStreamFrameEventUploadEnd at 504033.72ms, delta: 0.55ms
+           k_EStreamFrameEventComplete at 504042.28ms, delta: 8.54ms
+           total frame time: 35.68ms, result = k_EStreamFrameResultDisplayed
+Frame: 52067, 111251 bytes, k_EStreamFrameEventStart at 504016.62ms
+           k_EStreamFrameEventCaptureBegin at 504016.62ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 504016.84ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 504016.84ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 504016.84ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 504016.84ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 504018.81ms, delta: 1.98ms
+           k_EStreamFrameEventSend at 504018.84ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 504029.84ms, delta: 11.00ms
+           k_EStreamFrameEventDecodeBegin at 504033.94ms, delta: 4.10ms
+           k_EStreamFrameEventDecodeEnd at 504034.50ms, delta: 0.58ms
+           k_EStreamFrameEventComplete at 504069.78ms, delta: 35.26ms
+           total frame time: 53.15ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52068, 88851 bytes, k_EStreamFrameEventStart at 504024.09ms
+           k_EStreamFrameEventCaptureBegin at 504024.09ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 504024.31ms, delta: 0.21ms
+           k_EStreamFrameEventConvertBegin at 504024.31ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 504024.31ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 504024.31ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 504026.25ms, delta: 1.95ms
+           k_EStreamFrameEventSend at 504026.25ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 504038.25ms, delta: 11.99ms
+           k_EStreamFrameEventDecodeBegin at 504039.16ms, delta: 0.92ms
+           k_EStreamFrameEventDecodeEnd at 504041.00ms, delta: 1.85ms
+           k_EStreamFrameEventComplete at 504069.78ms, delta: 28.78ms
+           total frame time: 45.70ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52069, 90333 bytes, k_EStreamFrameEventStart at 504031.66ms
+           k_EStreamFrameEventCaptureBegin at 504031.66ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 504031.84ms, delta: 0.18ms
+           k_EStreamFrameEventConvertBegin at 504031.84ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 504031.84ms, delta: 0.02ms
+           k_EStreamFrameEventEncodeBegin at 504031.84ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 504033.91ms, delta: 2.06ms
+           k_EStreamFrameEventSend at 504033.91ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 504044.53ms, delta: 10.62ms
+           k_EStreamFrameEventDecodeBegin at 504049.97ms, delta: 5.45ms
+           k_EStreamFrameEventDecodeEnd at 504051.41ms, delta: 1.43ms
+           k_EStreamFrameEventComplete at 504069.78ms, delta: 18.39ms
+           total frame time: 38.15ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52070, 117786 bytes, k_EStreamFrameEventStart at 504040.34ms
+           k_EStreamFrameEventCaptureBegin at 504040.34ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 504040.53ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 504040.53ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 504040.56ms, delta: 0.02ms
+           k_EStreamFrameEventEncodeBegin at 504040.56ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 504042.62ms, delta: 2.06ms
+           k_EStreamFrameEventSend at 504042.62ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 504054.41ms, delta: 11.80ms
+           k_EStreamFrameEventDecodeBegin at 504061.28ms, delta: 6.87ms
+           k_EStreamFrameEventDecodeEnd at 504063.97ms, delta: 2.70ms
+           k_EStreamFrameEventComplete at 504069.81ms, delta: 5.83ms
+           total frame time: 29.46ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52071, 117396 bytes, k_EStreamFrameEventStart at 504050.03ms
+           k_EStreamFrameEventCaptureBegin at 504050.03ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 504050.25ms, delta: 0.21ms
+           k_EStreamFrameEventConvertBegin at 504050.25ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 504050.25ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 504050.25ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 504052.25ms, delta: 1.98ms
+           k_EStreamFrameEventSend at 504052.25ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 504065.53ms, delta: 13.28ms
+           k_EStreamFrameEventDecodeBegin at 504066.88ms, delta: 1.33ms
+           k_EStreamFrameEventDecodeEnd at 504068.28ms, delta: 1.42ms
+           k_EStreamFrameEventUploadBegin at 504069.81ms, delta: 1.53ms
+           k_EStreamFrameEventUploadEnd at 504069.81ms, delta: 0.02ms
+           k_EStreamFrameEventComplete at 504083.56ms, delta: 13.73ms
+           total frame time: 33.52ms, result = k_EStreamFrameResultDisplayed
+Frame: 52072, 112133 bytes, k_EStreamFrameEventStart at 504058.50ms
+           k_EStreamFrameEventCaptureBegin at 504058.50ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 504058.66ms, delta: 0.18ms
+           k_EStreamFrameEventConvertBegin at 504058.69ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 504058.69ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 504058.69ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 504060.66ms, delta: 1.97ms
+           k_EStreamFrameEventSend at 504060.66ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 504075.06ms, delta: 14.39ms
+           k_EStreamFrameEventDecodeBegin at 504075.75ms, delta: 0.69ms
+           k_EStreamFrameEventDecodeEnd at 504076.75ms, delta: 1.01ms
+           k_EStreamFrameEventUploadBegin at 504087.12ms, delta: 10.36ms
+           k_EStreamFrameEventUploadEnd at 504087.12ms, delta: 0.02ms
+           k_EStreamFrameEventComplete at 504101.84ms, delta: 14.72ms
+           total frame time: 43.37ms, result = k_EStreamFrameResultDisplayed
+Frame: 52073, 86282 bytes, k_EStreamFrameEventStart at 504065.56ms
+           k_EStreamFrameEventCaptureBegin at 504065.56ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 504065.75ms, delta: 0.21ms
+           k_EStreamFrameEventConvertBegin at 504065.75ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 504065.75ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 504065.75ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 504067.72ms, delta: 1.95ms
+           k_EStreamFrameEventSend at 504067.72ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 504083.06ms, delta: 15.34ms
+           k_EStreamFrameEventDecodeBegin at 504084.88ms, delta: 1.82ms
+           k_EStreamFrameEventDecodeEnd at 504087.16ms, delta: 2.29ms
+           k_EStreamFrameEventComplete at 504105.12ms, delta: 17.96ms
+           total frame time: 39.57ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52074, 92701 bytes, k_EStreamFrameEventStart at 504074.59ms
+           k_EStreamFrameEventCaptureBegin at 504074.59ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 504074.81ms, delta: 0.21ms
+           k_EStreamFrameEventConvertBegin at 504074.84ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 504074.84ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 504074.84ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 504076.81ms, delta: 1.97ms
+           k_EStreamFrameEventSend at 504076.81ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 504090.22ms, delta: 13.40ms
+           k_EStreamFrameEventDecodeBegin at 504091.44ms, delta: 1.22ms
+           k_EStreamFrameEventDecodeEnd at 504092.75ms, delta: 1.31ms
+           k_EStreamFrameEventComplete at 504105.12ms, delta: 12.37ms
+           total frame time: 30.52ms, result = k_EStreamFrameResultDroppedLate
+NETWORK: Ping: 0.27ms, Server: 74015 Kbit/s, Client: 36 Kbit/s, Link: 100000 Kbit/s, Packet loss: 0.00%
+Frame: 52075, 74567 bytes, k_EStreamFrameEventStart at 504082.12ms
+           k_EStreamFrameEventCaptureBegin at 504082.12ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 504082.34ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 504082.34ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 504082.34ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 504082.34ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 504084.38ms, delta: 2.03ms
+           k_EStreamFrameEventSend at 504084.38ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 504093.47ms, delta: 9.09ms
+           k_EStreamFrameEventDecodeBegin at 504096.62ms, delta: 3.16ms
+           k_EStreamFrameEventDecodeEnd at 504096.91ms, delta: 0.27ms
+           k_EStreamFrameEventUploadBegin at 504105.12ms, delta: 8.21ms
+           k_EStreamFrameEventUploadEnd at 504105.16ms, delta: 0.03ms
+           k_EStreamFrameEventComplete at 504124.53ms, delta: 19.38ms
+           total frame time: 42.39ms, result = k_EStreamFrameResultDisplayed
+Frame: 52076, 63327 bytes, k_EStreamFrameEventStart at 504089.91ms
+           k_EStreamFrameEventCaptureBegin at 504089.91ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 504090.09ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 504090.09ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 504090.09ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 504090.09ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 504092.16ms, delta: 2.06ms
+           k_EStreamFrameEventSend at 504092.19ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 504101.66ms, delta: 9.49ms
+           k_EStreamFrameEventDecodeBegin at 504102.75ms, delta: 1.07ms
+           k_EStreamFrameEventDecodeEnd at 504105.28ms, delta: 2.53ms
+           k_EStreamFrameEventComplete at 504124.84ms, delta: 19.56ms
+           total frame time: 34.93ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52077, 44418 bytes, k_EStreamFrameEventStart at 504099.72ms
+           k_EStreamFrameEventCaptureBegin at 504099.72ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 504099.91ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 504099.91ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 504099.91ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 504099.91ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 504101.88ms, delta: 1.97ms
+           k_EStreamFrameEventSend at 504101.88ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 504115.00ms, delta: 13.11ms
+           k_EStreamFrameEventDecodeBegin at 504117.56ms, delta: 2.58ms
+           k_EStreamFrameEventDecodeEnd at 504122.62ms, delta: 5.05ms
+           k_EStreamFrameEventUploadBegin at 504124.84ms, delta: 2.23ms
+           k_EStreamFrameEventUploadEnd at 504124.91ms, delta: 0.05ms
+           k_EStreamFrameEventComplete at 504141.56ms, delta: 16.68ms
+           total frame time: 41.85ms, result = k_EStreamFrameResultDisplayed
+Frame: 52078, 109731 bytes, k_EStreamFrameEventStart at 504106.75ms
+           k_EStreamFrameEventCaptureBegin at 504106.75ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 504106.94ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 504106.94ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 504106.94ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 504106.94ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 504108.88ms, delta: 1.95ms
+           k_EStreamFrameEventSend at 504108.91ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 504123.81ms, delta: 14.92ms
+           k_EStreamFrameEventDecodeBegin at 504126.81ms, delta: 2.98ms
+           k_EStreamFrameEventDecodeEnd at 504128.56ms, delta: 1.75ms
+           k_EStreamFrameEventComplete at 504145.38ms, delta: 16.82ms
+           total frame time: 38.64ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52079, 79835 bytes, k_EStreamFrameEventStart at 504115.88ms
+           k_EStreamFrameEventCaptureBegin at 504115.88ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 504116.09ms, delta: 0.21ms
+           k_EStreamFrameEventConvertBegin at 504116.09ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 504116.09ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 504116.09ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 504118.09ms, delta: 1.98ms
+           k_EStreamFrameEventSend at 504118.09ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 504131.75ms, delta: 13.64ms
+           k_EStreamFrameEventDecodeBegin at 504138.78ms, delta: 7.03ms
+           k_EStreamFrameEventDecodeEnd at 504139.53ms, delta: 0.76ms
+           k_EStreamFrameEventComplete at 504145.44ms, delta: 5.91ms
+           total frame time: 29.56ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52080, 68125 bytes, k_EStreamFrameEventStart at 504125.31ms
+           k_EStreamFrameEventCaptureBegin at 504125.31ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 504125.53ms, delta: 0.21ms
+           k_EStreamFrameEventConvertBegin at 504125.53ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 504125.53ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 504125.53ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 504127.50ms, delta: 1.98ms
+           k_EStreamFrameEventSend at 504127.53ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 504131.78ms, delta: 4.27ms
+           k_EStreamFrameEventDecodeBegin at 504139.53ms, delta: 7.75ms
+           k_EStreamFrameEventDecodeEnd at 504139.81ms, delta: 0.27ms
+           k_EStreamFrameEventUploadBegin at 504145.53ms, delta: 5.71ms
+           k_EStreamFrameEventUploadEnd at 504146.84ms, delta: 1.33ms
+           k_EStreamFrameEventComplete at 504160.81ms, delta: 13.98ms
+           total frame time: 35.52ms, result = k_EStreamFrameResultDisplayed
+Frame: 52081, 73092 bytes, k_EStreamFrameEventStart at 504133.59ms
+           k_EStreamFrameEventCaptureBegin at 504133.59ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 504133.78ms, delta: 0.18ms
+           k_EStreamFrameEventConvertBegin at 504133.78ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 504133.78ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 504133.78ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 504135.75ms, delta: 1.97ms
+           k_EStreamFrameEventSend at 504135.75ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 504143.72ms, delta: 7.95ms
+           k_EStreamFrameEventDecodeBegin at 504148.81ms, delta: 5.11ms
+           k_EStreamFrameEventDecodeEnd at 504149.25ms, delta: 0.44ms
+           k_EStreamFrameEventComplete at 504164.84ms, delta: 15.59ms
+           total frame time: 31.27ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52082, 104440 bytes, k_EStreamFrameEventStart at 504141.31ms
+           k_EStreamFrameEventCaptureBegin at 504141.31ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 504141.50ms, delta: 0.18ms
+           k_EStreamFrameEventConvertBegin at 504141.50ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 504141.53ms, delta: 0.02ms
+           k_EStreamFrameEventEncodeBegin at 504141.53ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 504143.50ms, delta: 1.97ms
+           k_EStreamFrameEventSend at 504143.50ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 504151.97ms, delta: 8.47ms
+           k_EStreamFrameEventDecodeBegin at 504153.25ms, delta: 1.27ms
+           k_EStreamFrameEventDecodeEnd at 504157.69ms, delta: 4.46ms
+           k_EStreamFrameEventUploadBegin at 504164.91ms, delta: 7.22ms
+           k_EStreamFrameEventUploadEnd at 504165.09ms, delta: 0.17ms
+           k_EStreamFrameEventComplete at 504186.31ms, delta: 21.22ms
+           total frame time: 44.98ms, result = k_EStreamFrameResultDisplayed
+Frame: 52083, 67206 bytes, k_EStreamFrameEventStart at 504148.81ms
+           k_EStreamFrameEventCaptureBegin at 504148.81ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 504149.03ms, delta: 0.21ms
+           k_EStreamFrameEventConvertBegin at 504149.03ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 504149.03ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 504149.03ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 504150.97ms, delta: 1.95ms
+           k_EStreamFrameEventSend at 504151.00ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 504157.72ms, delta: 6.74ms
+           k_EStreamFrameEventDecodeBegin at 504158.00ms, delta: 0.26ms
+           k_EStreamFrameEventDecodeEnd at 504165.62ms, delta: 7.63ms
+           k_EStreamFrameEventComplete at 504187.03ms, delta: 21.42ms
+           total frame time: 38.24ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52084, 74542 bytes, k_EStreamFrameEventStart at 504157.78ms
+           k_EStreamFrameEventCaptureBegin at 504157.78ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 504157.97ms, delta: 0.18ms
+           k_EStreamFrameEventConvertBegin at 504158.00ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 504158.00ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 504158.00ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 504159.94ms, delta: 1.94ms
+           k_EStreamFrameEventSend at 504159.94ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 504177.75ms, delta: 17.82ms
+           k_EStreamFrameEventDecodeBegin at 504179.84ms, delta: 2.09ms
+           k_EStreamFrameEventDecodeEnd at 504183.41ms, delta: 3.57ms
+           k_EStreamFrameEventComplete at 504187.03ms, delta: 3.63ms
+           total frame time: 29.25ms, result = k_EStreamFrameResultDroppedLate
+NETWORK: Ping: 0.27ms, Server: 74015 Kbit/s, Client: 36 Kbit/s, Link: 100000 Kbit/s, Packet loss: 0.00%
+Frame: 52085, 68276 bytes, k_EStreamFrameEventStart at 504164.75ms
+           k_EStreamFrameEventCaptureBegin at 504164.75ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 504164.94ms, delta: 0.18ms
+           k_EStreamFrameEventConvertBegin at 504164.97ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 504164.97ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 504164.97ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 504166.91ms, delta: 1.95ms
+           k_EStreamFrameEventSend at 504166.94ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 504183.53ms, delta: 16.60ms
+           k_EStreamFrameEventDecodeBegin at 504183.62ms, delta: 0.11ms
+           k_EStreamFrameEventDecodeEnd at 504183.88ms, delta: 0.23ms
+           k_EStreamFrameEventUploadBegin at 504187.06ms, delta: 3.20ms
+           k_EStreamFrameEventUploadEnd at 504187.22ms, delta: 0.14ms
+           k_EStreamFrameEventComplete at 504201.59ms, delta: 14.39ms
+           total frame time: 36.83ms, result = k_EStreamFrameResultDisplayed
+Frame: 52087, 119403 bytes, k_EStreamFrameEventStart at 504182.84ms
+           k_EStreamFrameEventCaptureBegin at 504182.84ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 504183.03ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 504183.03ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 504183.03ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 504183.03ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 504185.03ms, delta: 2.00ms
+           k_EStreamFrameEventSend at 504185.03ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 504197.50ms, delta: 12.47ms
+           k_EStreamFrameEventDecodeBegin at 504200.88ms, delta: 3.37ms
+           k_EStreamFrameEventDecodeEnd at 504201.78ms, delta: 0.89ms
+           k_EStreamFrameEventUploadBegin at 504203.28ms, delta: 1.51ms
+           k_EStreamFrameEventUploadEnd at 504203.38ms, delta: 0.09ms
+           k_EStreamFrameEventComplete at 504222.66ms, delta: 19.27ms
+           total frame time: 39.81ms, result = k_EStreamFrameResultDisplayed
+Frame: 52088, 110821 bytes, k_EStreamFrameEventStart at 504190.16ms
+           k_EStreamFrameEventCaptureBegin at 504190.16ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 504190.38ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 504190.38ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 504190.38ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 504190.38ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 504192.38ms, delta: 1.98ms
+           k_EStreamFrameEventSend at 504192.38ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 504204.78ms, delta: 12.41ms
+           k_EStreamFrameEventDecodeBegin at 504210.12ms, delta: 5.33ms
+           k_EStreamFrameEventDecodeEnd at 504210.59ms, delta: 0.49ms
+           k_EStreamFrameEventComplete at 504224.19ms, delta: 13.58ms
+           total frame time: 34.01ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52089, 94101 bytes, k_EStreamFrameEventStart at 504197.72ms
+           k_EStreamFrameEventCaptureBegin at 504197.72ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 504197.91ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 504197.91ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 504197.91ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 504197.91ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 504199.88ms, delta: 1.98ms
+           k_EStreamFrameEventSend at 504199.88ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 504214.94ms, delta: 15.06ms
+           k_EStreamFrameEventDecodeBegin at 504217.94ms, delta: 2.98ms
+           k_EStreamFrameEventDecodeEnd at 504219.22ms, delta: 1.30ms
+           k_EStreamFrameEventUploadBegin at 504224.19ms, delta: 4.97ms
+           k_EStreamFrameEventUploadEnd at 504224.25ms, delta: 0.05ms
+           k_EStreamFrameEventComplete at 504241.75ms, delta: 17.52ms
+           total frame time: 44.05ms, result = k_EStreamFrameResultDisplayed
+Frame: 52090, 59316 bytes, k_EStreamFrameEventStart at 504207.16ms
+           k_EStreamFrameEventCaptureBegin at 504207.16ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 504207.38ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 504207.38ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 504207.38ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 504207.38ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 504209.41ms, delta: 2.01ms
+           k_EStreamFrameEventSend at 504209.41ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 504219.84ms, delta: 10.44ms
+           k_EStreamFrameEventDecodeBegin at 504220.06ms, delta: 0.23ms
+           k_EStreamFrameEventDecodeEnd at 504227.94ms, delta: 7.87ms
+           k_EStreamFrameEventComplete at 504244.97ms, delta: 17.03ms
+           total frame time: 37.81ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52091, 39341 bytes, k_EStreamFrameEventStart at 504215.59ms
+           k_EStreamFrameEventCaptureBegin at 504215.59ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 504215.81ms, delta: 0.23ms
+           k_EStreamFrameEventConvertBegin at 504215.84ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 504215.84ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 504215.84ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 504217.78ms, delta: 1.95ms
+           k_EStreamFrameEventSend at 504217.81ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 504223.31ms, delta: 5.49ms
+           k_EStreamFrameEventDecodeBegin at 504227.97ms, delta: 4.67ms
+           k_EStreamFrameEventDecodeEnd at 504228.12ms, delta: 0.17ms
+           k_EStreamFrameEventComplete at 504244.97ms, delta: 16.85ms
+           total frame time: 29.39ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52092, 83914 bytes, k_EStreamFrameEventStart at 504223.00ms
+           k_EStreamFrameEventCaptureBegin at 504223.00ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 504223.19ms, delta: 0.18ms
+           k_EStreamFrameEventConvertBegin at 504223.22ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 504223.22ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 504223.22ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 504225.19ms, delta: 1.97ms
+           k_EStreamFrameEventSend at 504225.19ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 504239.59ms, delta: 14.40ms
+           k_EStreamFrameEventDecodeBegin at 504240.06ms, delta: 0.49ms
+           k_EStreamFrameEventDecodeEnd at 504241.34ms, delta: 1.27ms
+           k_EStreamFrameEventUploadBegin at 504244.97ms, delta: 3.65ms
+           k_EStreamFrameEventUploadEnd at 504245.00ms, delta: 0.02ms
+           k_EStreamFrameEventComplete at 504261.69ms, delta: 16.68ms
+           total frame time: 38.67ms, result = k_EStreamFrameResultDisplayed
+Frame: 52093, 105540 bytes, k_EStreamFrameEventStart at 504231.84ms
+           k_EStreamFrameEventCaptureBegin at 504231.84ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 504232.06ms, delta: 0.21ms
+           k_EStreamFrameEventConvertBegin at 504232.06ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 504232.09ms, delta: 0.02ms
+           k_EStreamFrameEventEncodeBegin at 504232.09ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 504234.09ms, delta: 2.01ms
+           k_EStreamFrameEventSend at 504234.12ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 504248.25ms, delta: 14.14ms
+           k_EStreamFrameEventDecodeBegin at 504249.78ms, delta: 1.53ms
+           k_EStreamFrameEventDecodeEnd at 504253.25ms, delta: 3.46ms
+           k_EStreamFrameEventComplete at 504262.34ms, delta: 9.08ms
+           total frame time: 30.47ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52094, 90194 bytes, k_EStreamFrameEventStart at 504240.75ms
+           k_EStreamFrameEventCaptureBegin at 504240.75ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 504240.97ms, delta: 0.23ms
+           k_EStreamFrameEventConvertBegin at 504240.97ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 504241.00ms, delta: 0.02ms
+           k_EStreamFrameEventEncodeBegin at 504241.00ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 504242.94ms, delta: 1.95ms
+           k_EStreamFrameEventSend at 504242.97ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 504256.41ms, delta: 13.43ms
+           k_EStreamFrameEventDecodeBegin at 504258.16ms, delta: 1.75ms
+           k_EStreamFrameEventDecodeEnd at 504258.91ms, delta: 0.75ms
+           k_EStreamFrameEventUploadBegin at 504262.34ms, delta: 3.43ms
+           k_EStreamFrameEventUploadEnd at 504262.34ms, delta: 0.02ms
+           k_EStreamFrameEventComplete at 504271.47ms, delta: 9.12ms
+           total frame time: 30.72ms, result = k_EStreamFrameResultDisplayed
+Frame: 52095, 116847 bytes, k_EStreamFrameEventStart at 504248.38ms
+           k_EStreamFrameEventCaptureBegin at 504248.38ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 504248.56ms, delta: 0.18ms
+           k_EStreamFrameEventConvertBegin at 504248.56ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 504248.56ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 504248.56ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 504250.56ms, delta: 1.98ms
+           k_EStreamFrameEventSend at 504250.56ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 504263.12ms, delta: 12.57ms
+           k_EStreamFrameEventDecodeBegin at 504269.09ms, delta: 5.98ms
+           k_EStreamFrameEventDecodeEnd at 504270.88ms, delta: 1.77ms
+           k_EStreamFrameEventUploadBegin at 504271.59ms, delta: 0.72ms
+           k_EStreamFrameEventUploadEnd at 504271.59ms, delta: 0.00ms
+           k_EStreamFrameEventComplete at 504281.69ms, delta: 10.10ms
+           total frame time: 33.33ms, result = k_EStreamFrameResultDisplayed
+NETWORK: Ping: 0.27ms, Server: 74015 Kbit/s, Client: 36 Kbit/s, Link: 100000 Kbit/s, Packet loss: 0.00%
+Frame: 52096, 112378 bytes, k_EStreamFrameEventStart at 504259.41ms
+           k_EStreamFrameEventCaptureBegin at 504259.41ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 504259.59ms, delta: 0.18ms
+           k_EStreamFrameEventConvertBegin at 504259.59ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 504259.59ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 504259.59ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 504261.56ms, delta: 1.97ms
+           k_EStreamFrameEventSend at 504261.59ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 504274.44ms, delta: 12.86ms
+           k_EStreamFrameEventDecodeBegin at 504278.78ms, delta: 4.35ms
+           k_EStreamFrameEventDecodeEnd at 504279.97ms, delta: 1.19ms
+           k_EStreamFrameEventUploadBegin at 504283.84ms, delta: 3.86ms
+           k_EStreamFrameEventUploadEnd at 504283.88ms, delta: 0.03ms
+           k_EStreamFrameEventComplete at 504301.00ms, delta: 17.14ms
+           total frame time: 41.61ms, result = k_EStreamFrameResultDisplayed
+Frame: 52345, 106739 bytes, k_EStreamFrameEventStart at 506332.78ms
+           k_EStreamFrameEventCaptureBegin at 506332.78ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 506333.00ms, delta: 0.23ms
+           k_EStreamFrameEventConvertBegin at 506333.03ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 506333.03ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 506333.03ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 506334.94ms, delta: 1.92ms
+           k_EStreamFrameEventSend at 506334.94ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 506350.75ms, delta: 15.79ms
+           k_EStreamFrameEventDecodeBegin at 506351.44ms, delta: 0.70ms
+           k_EStreamFrameEventDecodeEnd at 506352.56ms, delta: 1.11ms
+           k_EStreamFrameEventComplete at 506400.25ms, delta: 47.68ms
+           total frame time: 67.46ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52347, 109581 bytes, k_EStreamFrameEventStart at 506349.81ms
+           k_EStreamFrameEventCaptureBegin at 506349.81ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 506350.03ms, delta: 0.21ms
+           k_EStreamFrameEventConvertBegin at 506350.06ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 506350.06ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 506350.06ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 506352.16ms, delta: 2.09ms
+           k_EStreamFrameEventSend at 506352.16ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 506369.97ms, delta: 17.82ms
+           k_EStreamFrameEventDecodeBegin at 506370.25ms, delta: 0.26ms
+           k_EStreamFrameEventDecodeEnd at 506370.72ms, delta: 0.47ms
+           k_EStreamFrameEventComplete at 506400.25ms, delta: 29.53ms
+           total frame time: 50.42ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52348, 90145 bytes, k_EStreamFrameEventStart at 506357.84ms
+           k_EStreamFrameEventCaptureBegin at 506357.84ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 506358.09ms, delta: 0.26ms
+           k_EStreamFrameEventConvertBegin at 506358.09ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 506358.09ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 506358.09ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 506360.06ms, delta: 1.95ms
+           k_EStreamFrameEventSend at 506360.06ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 506377.72ms, delta: 17.65ms
+           k_EStreamFrameEventDecodeBegin at 506379.66ms, delta: 1.92ms
+           k_EStreamFrameEventDecodeEnd at 506380.09ms, delta: 0.43ms
+           k_EStreamFrameEventComplete at 506400.25ms, delta: 20.16ms
+           total frame time: 42.40ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52350, 112343 bytes, k_EStreamFrameEventStart at 506372.88ms
+           k_EStreamFrameEventCaptureBegin at 506372.88ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 506373.12ms, delta: 0.26ms
+           k_EStreamFrameEventConvertBegin at 506373.12ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 506373.12ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 506373.12ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 506375.16ms, delta: 2.01ms
+           k_EStreamFrameEventSend at 506375.16ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 506387.03ms, delta: 11.87ms
+           k_EStreamFrameEventDecodeBegin at 506389.38ms, delta: 2.35ms
+           k_EStreamFrameEventDecodeEnd at 506389.84ms, delta: 0.44ms
+           k_EStreamFrameEventUploadBegin at 506400.25ms, delta: 10.42ms
+           k_EStreamFrameEventUploadEnd at 506400.28ms, delta: 0.02ms
+           k_EStreamFrameEventComplete at 506413.34ms, delta: 13.08ms
+           total frame time: 40.48ms, result = k_EStreamFrameResultDisplayed
+Frame: 52351, 102296 bytes, k_EStreamFrameEventStart at 506383.59ms
+           k_EStreamFrameEventCaptureBegin at 506383.59ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 506384.25ms, delta: 0.66ms
+           k_EStreamFrameEventConvertBegin at 506384.28ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 506384.28ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 506384.28ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 506386.62ms, delta: 2.35ms
+           k_EStreamFrameEventSend at 506386.66ms, delta: 0.03ms
+           k_EStreamFrameEventRecv at 506403.84ms, delta: 17.20ms
+           k_EStreamFrameEventDecodeBegin at 506404.09ms, delta: 0.23ms
+           k_EStreamFrameEventDecodeEnd at 506404.56ms, delta: 0.47ms
+           k_EStreamFrameEventUploadBegin at 506413.50ms, delta: 8.94ms
+           k_EStreamFrameEventUploadEnd at 506413.50ms, delta: 0.02ms
+           k_EStreamFrameEventComplete at 506424.72ms, delta: 11.22ms
+           total frame time: 41.12ms, result = k_EStreamFrameResultDisplayed
+Frame: 52352, 90732 bytes, k_EStreamFrameEventStart at 506392.03ms
+           k_EStreamFrameEventCaptureBegin at 506392.03ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 506392.31ms, delta: 0.29ms
+           k_EStreamFrameEventConvertBegin at 506392.34ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 506392.34ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 506392.34ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 506394.31ms, delta: 1.98ms
+           k_EStreamFrameEventSend at 506394.31ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 506411.47ms, delta: 17.17ms
+           k_EStreamFrameEventDecodeBegin at 506413.28ms, delta: 1.79ms
+           k_EStreamFrameEventDecodeEnd at 506413.88ms, delta: 0.61ms
+           k_EStreamFrameEventComplete at 506424.81ms, delta: 10.94ms
+           total frame time: 32.79ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52354, 73505 bytes, k_EStreamFrameEventStart at 506407.81ms
+           k_EStreamFrameEventCaptureBegin at 506407.81ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 506408.03ms, delta: 0.23ms
+           k_EStreamFrameEventConvertBegin at 506408.06ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 506408.06ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 506408.06ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 506410.06ms, delta: 2.00ms
+           k_EStreamFrameEventSend at 506410.06ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 506417.69ms, delta: 7.61ms
+           k_EStreamFrameEventDecodeBegin at 506420.44ms, delta: 2.75ms
+           k_EStreamFrameEventDecodeEnd at 506421.84ms, delta: 1.40ms
+           k_EStreamFrameEventUploadBegin at 506424.84ms, delta: 3.01ms
+           k_EStreamFrameEventUploadEnd at 506424.84ms, delta: 0.02ms
+           k_EStreamFrameEventComplete at 506444.66ms, delta: 19.79ms
+           total frame time: 36.83ms, result = k_EStreamFrameResultDisplayed
+Frame: 52355, 81375 bytes, k_EStreamFrameEventStart at 506415.84ms
+           k_EStreamFrameEventCaptureBegin at 506415.84ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 506416.06ms, delta: 0.23ms
+           k_EStreamFrameEventConvertBegin at 506416.06ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 506416.06ms, delta: 0.02ms
+           k_EStreamFrameEventEncodeBegin at 506416.06ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 506418.03ms, delta: 1.97ms
+           k_EStreamFrameEventSend at 506418.06ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 506431.31ms, delta: 13.26ms
+           k_EStreamFrameEventDecodeBegin at 506433.19ms, delta: 1.86ms
+           k_EStreamFrameEventDecodeEnd at 506433.59ms, delta: 0.41ms
+           k_EStreamFrameEventComplete at 506444.78ms, delta: 11.18ms
+           total frame time: 28.95ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52356, 95043 bytes, k_EStreamFrameEventStart at 506422.78ms
+           k_EStreamFrameEventCaptureBegin at 506422.78ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 506423.00ms, delta: 0.21ms
+           k_EStreamFrameEventConvertBegin at 506423.00ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 506423.00ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 506423.00ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 506425.00ms, delta: 1.98ms
+           k_EStreamFrameEventSend at 506425.00ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 506438.72ms, delta: 13.72ms
+           k_EStreamFrameEventDecodeBegin at 506442.62ms, delta: 3.89ms
+           k_EStreamFrameEventDecodeEnd at 506443.16ms, delta: 0.55ms
+           k_EStreamFrameEventUploadBegin at 506444.78ms, delta: 1.63ms
+           k_EStreamFrameEventUploadEnd at 506444.81ms, delta: 0.02ms
+           k_EStreamFrameEventComplete at 506461.28ms, delta: 16.46ms
+           total frame time: 38.48ms, result = k_EStreamFrameResultDisplayed
+NETWORK: Ping: 0.17ms, Server: 72422 Kbit/s, Client: 53 Kbit/s, Link: 100000 Kbit/s, Packet loss: 0.00%
+Frame: 52357, 69948 bytes, k_EStreamFrameEventStart at 506432.06ms
+           k_EStreamFrameEventCaptureBegin at 506432.06ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 506432.28ms, delta: 0.21ms
+           k_EStreamFrameEventConvertBegin at 506432.28ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 506432.28ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 506432.28ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 506434.25ms, delta: 1.94ms
+           k_EStreamFrameEventSend at 506434.25ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 506445.25ms, delta: 11.02ms
+           k_EStreamFrameEventDecodeBegin at 506445.47ms, delta: 0.21ms
+           k_EStreamFrameEventDecodeEnd at 506445.81ms, delta: 0.35ms
+           k_EStreamFrameEventComplete at 506461.72ms, delta: 15.91ms
+           total frame time: 29.66ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52358, 52717 bytes, k_EStreamFrameEventStart at 506440.88ms
+           k_EStreamFrameEventCaptureBegin at 506440.88ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 506441.12ms, delta: 0.26ms
+           k_EStreamFrameEventConvertBegin at 506441.12ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 506441.12ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 506441.12ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 506443.12ms, delta: 1.98ms
+           k_EStreamFrameEventSend at 506443.12ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 506449.69ms, delta: 6.56ms
+           k_EStreamFrameEventDecodeBegin at 506451.59ms, delta: 1.91ms
+           k_EStreamFrameEventDecodeEnd at 506453.28ms, delta: 1.68ms
+           k_EStreamFrameEventUploadBegin at 506461.72ms, delta: 8.45ms
+           k_EStreamFrameEventUploadEnd at 506461.75ms, delta: 0.03ms
+           k_EStreamFrameEventComplete at 506474.81ms, delta: 13.05ms
+           total frame time: 33.94ms, result = k_EStreamFrameResultDisplayed
+Frame: 52359, 73056 bytes, k_EStreamFrameEventStart at 506448.88ms
+           k_EStreamFrameEventCaptureBegin at 506448.88ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 506449.19ms, delta: 0.31ms
+           k_EStreamFrameEventConvertBegin at 506449.22ms, delta: 0.05ms
+           k_EStreamFrameEventConvertEnd at 506449.22ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 506449.22ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 506451.19ms, delta: 1.98ms
+           k_EStreamFrameEventSend at 506451.19ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 506458.28ms, delta: 7.06ms
+           k_EStreamFrameEventDecodeBegin at 506462.66ms, delta: 4.38ms
+           k_EStreamFrameEventDecodeEnd at 506464.81ms, delta: 2.15ms
+           k_EStreamFrameEventComplete at 506498.72ms, delta: 33.92ms
+           total frame time: 49.85ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52360, 91289 bytes, k_EStreamFrameEventStart at 506485.81ms
+           k_EStreamFrameEventCaptureBegin at 506485.81ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 506486.16ms, delta: 0.34ms
+           k_EStreamFrameEventConvertBegin at 506486.16ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 506486.16ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 506486.16ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 506488.38ms, delta: 2.23ms
+           k_EStreamFrameEventSend at 506488.41ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 506495.50ms, delta: 7.10ms
+           k_EStreamFrameEventDecodeBegin at 506495.78ms, delta: 0.29ms
+           k_EStreamFrameEventDecodeEnd at 506496.25ms, delta: 0.47ms
+           k_EStreamFrameEventUploadBegin at 506498.72ms, delta: 2.47ms
+           k_EStreamFrameEventUploadEnd at 506498.78ms, delta: 0.06ms
+           k_EStreamFrameEventComplete at 506510.31ms, delta: 11.52ms
+           total frame time: 24.51ms, result = k_EStreamFrameResultDisplayed
+Frame: 52361, 76003 bytes, k_EStreamFrameEventStart at 506493.53ms
+           k_EStreamFrameEventCaptureBegin at 506493.53ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 506494.56ms, delta: 1.02ms
+           k_EStreamFrameEventConvertBegin at 506494.56ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 506494.59ms, delta: 0.02ms
+           k_EStreamFrameEventEncodeBegin at 506494.59ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 506497.12ms, delta: 2.53ms
+           k_EStreamFrameEventSend at 506497.12ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 506505.81ms, delta: 8.67ms
+           k_EStreamFrameEventDecodeBegin at 506506.16ms, delta: 0.35ms
+           k_EStreamFrameEventDecodeEnd at 506506.47ms, delta: 0.32ms
+           k_EStreamFrameEventUploadBegin at 506510.78ms, delta: 4.32ms
+           k_EStreamFrameEventUploadEnd at 506510.88ms, delta: 0.09ms
+           k_EStreamFrameEventComplete at 506520.22ms, delta: 9.35ms
+           total frame time: 26.69ms, result = k_EStreamFrameResultDisplayed
+Frame: 52362, 104618 bytes, k_EStreamFrameEventStart at 506497.91ms
+           k_EStreamFrameEventCaptureBegin at 506497.91ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 506498.28ms, delta: 0.38ms
+           k_EStreamFrameEventConvertBegin at 506498.28ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 506498.28ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 506498.28ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 506500.44ms, delta: 2.14ms
+           k_EStreamFrameEventSend at 506500.44ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 506514.72ms, delta: 14.28ms
+           k_EStreamFrameEventDecodeBegin at 506515.00ms, delta: 0.27ms
+           k_EStreamFrameEventDecodeEnd at 506515.91ms, delta: 0.92ms
+           k_EStreamFrameEventUploadBegin at 506520.47ms, delta: 4.55ms
+           k_EStreamFrameEventUploadEnd at 506520.56ms, delta: 0.11ms
+           k_EStreamFrameEventComplete at 506533.69ms, delta: 13.11ms
+           total frame time: 35.78ms, result = k_EStreamFrameResultDisplayed
+Frame: 52364, 110760 bytes, k_EStreamFrameEventStart at 506508.41ms
+           k_EStreamFrameEventCaptureBegin at 506508.41ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 506508.72ms, delta: 0.31ms
+           k_EStreamFrameEventConvertBegin at 506508.72ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 506508.72ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 506508.72ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 506510.88ms, delta: 2.15ms
+           k_EStreamFrameEventSend at 506510.88ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 506524.00ms, delta: 13.12ms
+           k_EStreamFrameEventDecodeBegin at 506524.34ms, delta: 0.35ms
+           k_EStreamFrameEventDecodeEnd at 506524.91ms, delta: 0.56ms
+           k_EStreamFrameEventUploadBegin at 506534.38ms, delta: 9.46ms
+           k_EStreamFrameEventUploadEnd at 506534.41ms, delta: 0.02ms
+           k_EStreamFrameEventComplete at 506552.09ms, delta: 17.68ms
+           total frame time: 43.67ms, result = k_EStreamFrameResultDisplayed
+Frame: 52366, 79954 bytes, k_EStreamFrameEventStart at 506518.66ms
+           k_EStreamFrameEventCaptureBegin at 506518.66ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 506518.88ms, delta: 0.23ms
+           k_EStreamFrameEventConvertBegin at 506518.88ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 506518.88ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 506518.88ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 506520.91ms, delta: 2.03ms
+           k_EStreamFrameEventSend at 506520.94ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 506530.91ms, delta: 9.98ms
+           k_EStreamFrameEventDecodeBegin at 506534.22ms, delta: 3.31ms
+           k_EStreamFrameEventDecodeEnd at 506534.62ms, delta: 0.40ms
+           k_EStreamFrameEventComplete at 506552.22ms, delta: 17.59ms
+           total frame time: 33.57ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52368, 80766 bytes, k_EStreamFrameEventStart at 506527.12ms
+           k_EStreamFrameEventCaptureBegin at 506527.12ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 506527.50ms, delta: 0.37ms
+           k_EStreamFrameEventConvertBegin at 506527.50ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 506527.50ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 506527.50ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 506529.50ms, delta: 2.00ms
+           k_EStreamFrameEventSend at 506529.50ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 506537.47ms, delta: 7.97ms
+           k_EStreamFrameEventDecodeBegin at 506538.06ms, delta: 0.60ms
+           k_EStreamFrameEventDecodeEnd at 506538.72ms, delta: 0.66ms
+           k_EStreamFrameEventUploadBegin at 506552.22ms, delta: 13.49ms
+           k_EStreamFrameEventUploadEnd at 506552.25ms, delta: 0.03ms
+           k_EStreamFrameEventComplete at 506562.38ms, delta: 10.12ms
+           total frame time: 35.23ms, result = k_EStreamFrameResultDisplayed
+Frame: 52369, 46477 bytes, k_EStreamFrameEventStart at 506535.06ms
+           k_EStreamFrameEventCaptureBegin at 506535.06ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 506535.31ms, delta: 0.24ms
+           k_EStreamFrameEventConvertBegin at 506535.31ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 506535.31ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 506535.31ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 506537.25ms, delta: 1.94ms
+           k_EStreamFrameEventSend at 506537.28ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 506548.06ms, delta: 10.77ms
+           k_EStreamFrameEventDecodeBegin at 506552.03ms, delta: 3.98ms
+           k_EStreamFrameEventDecodeEnd at 506552.25ms, delta: 0.21ms
+           k_EStreamFrameEventComplete at 506562.47ms, delta: 10.22ms
+           total frame time: 27.40ms, result = k_EStreamFrameResultDroppedLate
+NETWORK: Ping: 0.17ms, Server: 72422 Kbit/s, Client: 53 Kbit/s, Link: 100000 Kbit/s, Packet loss: 0.00%
+Frame: 52370, 109817 bytes, k_EStreamFrameEventStart at 506544.03ms
+           k_EStreamFrameEventCaptureBegin at 506544.03ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 506544.25ms, delta: 0.21ms
+           k_EStreamFrameEventConvertBegin at 506544.25ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 506544.25ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 506544.25ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 506546.22ms, delta: 1.98ms
+           k_EStreamFrameEventSend at 506546.25ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 506558.47ms, delta: 12.22ms
+           k_EStreamFrameEventDecodeBegin at 506561.00ms, delta: 2.53ms
+           k_EStreamFrameEventDecodeEnd at 506561.50ms, delta: 0.50ms
+           k_EStreamFrameEventUploadBegin at 506562.47ms, delta: 0.96ms
+           k_EStreamFrameEventUploadEnd at 506562.50ms, delta: 0.03ms
+           k_EStreamFrameEventComplete at 506572.88ms, delta: 10.36ms
+           total frame time: 28.84ms, result = k_EStreamFrameResultDisplayed
+Frame: 52371, 50750 bytes, k_EStreamFrameEventStart at 506552.16ms
+           k_EStreamFrameEventCaptureBegin at 506552.16ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 506552.38ms, delta: 0.21ms
+           k_EStreamFrameEventConvertBegin at 506552.38ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 506552.38ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 506552.38ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 506555.00ms, delta: 2.61ms
+           k_EStreamFrameEventSend at 506555.00ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 506562.69ms, delta: 7.71ms
+           k_EStreamFrameEventDecodeBegin at 506563.03ms, delta: 0.32ms
+           k_EStreamFrameEventDecodeEnd at 506563.25ms, delta: 0.23ms
+           k_EStreamFrameEventComplete at 506573.31ms, delta: 10.07ms
+           total frame time: 21.16ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52372, 82460 bytes, k_EStreamFrameEventStart at 506559.47ms
+           k_EStreamFrameEventCaptureBegin at 506559.47ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 506559.72ms, delta: 0.23ms
+           k_EStreamFrameEventConvertBegin at 506559.72ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 506559.72ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 506559.72ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 506561.69ms, delta: 1.95ms
+           k_EStreamFrameEventSend at 506561.69ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 506569.47ms, delta: 7.78ms
+           k_EStreamFrameEventDecodeBegin at 506571.06ms, delta: 1.59ms
+           k_EStreamFrameEventDecodeEnd at 506571.41ms, delta: 0.35ms
+           k_EStreamFrameEventUploadBegin at 506573.34ms, delta: 1.92ms
+           k_EStreamFrameEventUploadEnd at 506573.38ms, delta: 0.03ms
+           k_EStreamFrameEventComplete at 506591.25ms, delta: 17.88ms
+           total frame time: 31.77ms, result = k_EStreamFrameResultDisplayed
+Frame: 52373, 78728 bytes, k_EStreamFrameEventStart at 506569.12ms
+           k_EStreamFrameEventCaptureBegin at 506569.12ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 506569.38ms, delta: 0.26ms
+           k_EStreamFrameEventConvertBegin at 506569.38ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 506569.38ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 506569.38ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 506571.34ms, delta: 1.95ms
+           k_EStreamFrameEventSend at 506571.34ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 506583.59ms, delta: 12.25ms
+           k_EStreamFrameEventDecodeBegin at 506588.72ms, delta: 5.13ms
+           k_EStreamFrameEventDecodeEnd at 506589.38ms, delta: 0.64ms
+           k_EStreamFrameEventUploadBegin at 506591.41ms, delta: 2.03ms
+           k_EStreamFrameEventUploadEnd at 506591.44ms, delta: 0.05ms
+           k_EStreamFrameEventComplete at 506611.91ms, delta: 20.46ms
+           total frame time: 42.79ms, result = k_EStreamFrameResultDisplayed
+Frame: 52374, 95606 bytes, k_EStreamFrameEventStart at 506578.12ms
+           k_EStreamFrameEventCaptureBegin at 506578.12ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 506578.31ms, delta: 0.21ms
+           k_EStreamFrameEventConvertBegin at 506578.34ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 506578.34ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 506578.34ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 506580.41ms, delta: 2.08ms
+           k_EStreamFrameEventSend at 506580.44ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 506590.75ms, delta: 10.31ms
+           k_EStreamFrameEventDecodeBegin at 506599.38ms, delta: 8.62ms
+           k_EStreamFrameEventDecodeEnd at 506599.78ms, delta: 0.41ms
+           k_EStreamFrameEventComplete at 506683.19ms, delta: 83.40ms
+           total frame time: 105.07ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52375, 76412 bytes, k_EStreamFrameEventStart at 506585.97ms
+           k_EStreamFrameEventCaptureBegin at 506585.97ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 506586.19ms, delta: 0.21ms
+           k_EStreamFrameEventConvertBegin at 506586.22ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 506586.22ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 506586.22ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 506588.25ms, delta: 2.04ms
+           k_EStreamFrameEventSend at 506588.28ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 506590.75ms, delta: 2.47ms
+           k_EStreamFrameEventDecodeBegin at 506599.78ms, delta: 9.05ms
+           k_EStreamFrameEventDecodeEnd at 506605.56ms, delta: 5.77ms
+           k_EStreamFrameEventComplete at 506683.19ms, delta: 77.64ms
+           total frame time: 97.21ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52376, 66021 bytes, k_EStreamFrameEventStart at 506593.97ms
+           k_EStreamFrameEventCaptureBegin at 506593.97ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 506594.19ms, delta: 0.21ms
+           k_EStreamFrameEventConvertBegin at 506594.19ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 506594.19ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 506594.19ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 506596.09ms, delta: 1.92ms
+           k_EStreamFrameEventSend at 506596.12ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 506603.75ms, delta: 7.63ms
+           k_EStreamFrameEventDecodeBegin at 506606.06ms, delta: 2.30ms
+           k_EStreamFrameEventDecodeEnd at 506607.53ms, delta: 1.50ms
+           k_EStreamFrameEventComplete at 506683.19ms, delta: 75.65ms
+           total frame time: 89.23ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52377, 115915 bytes, k_EStreamFrameEventStart at 506602.06ms
+           k_EStreamFrameEventCaptureBegin at 506602.06ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 506602.25ms, delta: 0.21ms
+           k_EStreamFrameEventConvertBegin at 506602.25ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 506602.25ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 506602.25ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 506604.22ms, delta: 1.97ms
+           k_EStreamFrameEventSend at 506604.25ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 506613.09ms, delta: 8.85ms
+           k_EStreamFrameEventDecodeBegin at 506619.00ms, delta: 5.89ms
+           k_EStreamFrameEventDecodeEnd at 506619.84ms, delta: 0.85ms
+           k_EStreamFrameEventComplete at 506683.19ms, delta: 63.35ms
+           total frame time: 81.15ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52378, 99926 bytes, k_EStreamFrameEventStart at 506609.28ms
+           k_EStreamFrameEventCaptureBegin at 506609.28ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 506609.47ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 506609.47ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 506609.47ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 506609.47ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 506611.47ms, delta: 2.00ms
+           k_EStreamFrameEventSend at 506611.47ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 506622.84ms, delta: 11.35ms
+           k_EStreamFrameEventDecodeBegin at 506627.56ms, delta: 4.71ms
+           k_EStreamFrameEventDecodeEnd at 506628.06ms, delta: 0.50ms
+           k_EStreamFrameEventComplete at 506683.19ms, delta: 55.15ms
+           total frame time: 73.91ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52379, 87987 bytes, k_EStreamFrameEventStart at 506619.03ms
+           k_EStreamFrameEventCaptureBegin at 506619.03ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 506619.22ms, delta: 0.21ms
+           k_EStreamFrameEventConvertBegin at 506619.22ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 506619.22ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 506619.22ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 506621.19ms, delta: 1.97ms
+           k_EStreamFrameEventSend at 506621.22ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 506624.31ms, delta: 3.08ms
+           k_EStreamFrameEventDecodeBegin at 506636.44ms, delta: 12.15ms
+           k_EStreamFrameEventDecodeEnd at 506636.88ms, delta: 0.43ms
+           k_EStreamFrameEventComplete at 506683.19ms, delta: 46.33ms
+           total frame time: 64.18ms, result = k_EStreamFrameResultDroppedLate
+NETWORK: Ping: 0.17ms, Server: 72422 Kbit/s, Client: 53 Kbit/s, Link: 100000 Kbit/s, Packet loss: 0.00%
+Frame: 52380, 65055 bytes, k_EStreamFrameEventStart at 506627.06ms
+           k_EStreamFrameEventCaptureBegin at 506627.06ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 506627.28ms, delta: 0.21ms
+           k_EStreamFrameEventConvertBegin at 506627.31ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 506627.31ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 506627.31ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 506629.25ms, delta: 1.95ms
+           k_EStreamFrameEventSend at 506629.28ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 506630.28ms, delta: 1.01ms
+           k_EStreamFrameEventDecodeBegin at 506637.62ms, delta: 7.34ms
+           k_EStreamFrameEventDecodeEnd at 506639.34ms, delta: 1.72ms
+           k_EStreamFrameEventComplete at 506683.19ms, delta: 43.85ms
+           total frame time: 56.12ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52381, 69993 bytes, k_EStreamFrameEventStart at 506634.06ms
+           k_EStreamFrameEventCaptureBegin at 506634.06ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 506634.25ms, delta: 0.21ms
+           k_EStreamFrameEventConvertBegin at 506634.28ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 506634.28ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 506634.28ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 506636.28ms, delta: 2.00ms
+           k_EStreamFrameEventSend at 506636.28ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 506636.97ms, delta: 0.69ms
+           k_EStreamFrameEventDecodeBegin at 506645.53ms, delta: 8.56ms
+           k_EStreamFrameEventDecodeEnd at 506645.88ms, delta: 0.35ms
+           k_EStreamFrameEventComplete at 506683.22ms, delta: 37.34ms
+           total frame time: 49.16ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52382, 120223 bytes, k_EStreamFrameEventStart at 506643.97ms
+           k_EStreamFrameEventCaptureBegin at 506643.97ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 506644.19ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 506644.19ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 506644.19ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 506644.19ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 506646.16ms, delta: 1.98ms
+           k_EStreamFrameEventSend at 506646.19ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 506655.75ms, delta: 9.57ms
+           k_EStreamFrameEventDecodeBegin at 506671.75ms, delta: 16.01ms
+           k_EStreamFrameEventDecodeEnd at 506672.78ms, delta: 1.04ms
+           k_EStreamFrameEventComplete at 506683.22ms, delta: 10.42ms
+           total frame time: 39.23ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52383, 108664 bytes, k_EStreamFrameEventStart at 506652.31ms
+           k_EStreamFrameEventCaptureBegin at 506652.31ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 506652.56ms, delta: 0.27ms
+           k_EStreamFrameEventConvertBegin at 506652.66ms, delta: 0.08ms
+           k_EStreamFrameEventConvertEnd at 506652.66ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 506652.66ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 506654.69ms, delta: 2.04ms
+           k_EStreamFrameEventSend at 506654.72ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 506655.84ms, delta: 1.13ms
+           k_EStreamFrameEventDecodeBegin at 506672.81ms, delta: 16.98ms
+           k_EStreamFrameEventDecodeEnd at 506675.31ms, delta: 2.49ms
+           k_EStreamFrameEventUploadBegin at 506683.22ms, delta: 7.90ms
+           k_EStreamFrameEventUploadEnd at 506683.25ms, delta: 0.03ms
+           k_EStreamFrameEventComplete at 506701.91ms, delta: 18.68ms
+           total frame time: 49.62ms, result = k_EStreamFrameResultDisplayed
+Frame: 52385, 91506 bytes, k_EStreamFrameEventStart at 506668.69ms
+           k_EStreamFrameEventCaptureBegin at 506668.69ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 506668.91ms, delta: 0.21ms
+           k_EStreamFrameEventConvertBegin at 506668.91ms, delta: 0.02ms
+           k_EStreamFrameEventConvertEnd at 506668.91ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 506668.91ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 506670.88ms, delta: 1.97ms
+           k_EStreamFrameEventSend at 506670.91ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 506688.03ms, delta: 17.14ms
+           k_EStreamFrameEventDecodeBegin at 506690.47ms, delta: 2.44ms
+           k_EStreamFrameEventDecodeEnd at 506691.22ms, delta: 0.75ms
+           k_EStreamFrameEventComplete at 506702.06ms, delta: 10.85ms
+           total frame time: 33.39ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52386, 67793 bytes, k_EStreamFrameEventStart at 506676.00ms
+           k_EStreamFrameEventCaptureBegin at 506676.00ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 506676.22ms, delta: 0.21ms
+           k_EStreamFrameEventConvertBegin at 506676.22ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 506676.22ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 506676.22ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 506678.22ms, delta: 1.98ms
+           k_EStreamFrameEventSend at 506678.22ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 506693.00ms, delta: 14.79ms
+           k_EStreamFrameEventDecodeBegin at 506693.28ms, delta: 0.26ms
+           k_EStreamFrameEventDecodeEnd at 506694.22ms, delta: 0.95ms
+           k_EStreamFrameEventUploadBegin at 506702.06ms, delta: 7.86ms
+           k_EStreamFrameEventUploadEnd at 506702.09ms, delta: 0.03ms
+           k_EStreamFrameEventComplete at 506711.81ms, delta: 9.72ms
+           total frame time: 35.81ms, result = k_EStreamFrameResultDisplayed
+Frame: 52388, 93128 bytes, k_EStreamFrameEventStart at 506693.03ms
+           k_EStreamFrameEventCaptureBegin at 506693.03ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 506693.28ms, delta: 0.23ms
+           k_EStreamFrameEventConvertBegin at 506693.28ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 506693.28ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 506693.28ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 506695.28ms, delta: 2.00ms
+           k_EStreamFrameEventSend at 506695.28ms, delta: 0.02ms
+           k_EStreamFrameEventRecv at 506703.66ms, delta: 8.38ms
+           k_EStreamFrameEventDecodeBegin at 506705.94ms, delta: 2.27ms
+           k_EStreamFrameEventDecodeEnd at 506710.31ms, delta: 4.38ms
+           k_EStreamFrameEventUploadBegin at 506711.91ms, delta: 1.60ms
+           k_EStreamFrameEventUploadEnd at 506711.94ms, delta: 0.02ms
+           k_EStreamFrameEventComplete at 506722.56ms, delta: 10.62ms
+           total frame time: 29.51ms, result = k_EStreamFrameResultDisplayed
+Frame: 52389, 64600 bytes, k_EStreamFrameEventStart at 506700.06ms
+           k_EStreamFrameEventCaptureBegin at 506700.06ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 506700.28ms, delta: 0.20ms
+           k_EStreamFrameEventConvertBegin at 506700.28ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 506700.28ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 506700.28ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 506702.28ms, delta: 2.00ms
+           k_EStreamFrameEventSend at 506702.28ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 506708.44ms, delta: 6.16ms
+           k_EStreamFrameEventDecodeBegin at 506710.31ms, delta: 1.89ms
+           k_EStreamFrameEventDecodeEnd at 506712.91ms, delta: 2.59ms
+           k_EStreamFrameEventComplete at 506724.12ms, delta: 11.20ms
+           total frame time: 24.05ms, result = k_EStreamFrameResultDroppedLate
+Frame: 52390, 88593 bytes, k_EStreamFrameEventStart at 506710.00ms
+           k_EStreamFrameEventCaptureBegin at 506710.00ms, delta: 0.00ms
+           k_EStreamFrameEventCaptureEnd at 506710.22ms, delta: 0.21ms
+           k_EStreamFrameEventConvertBegin at 506710.22ms, delta: 0.00ms
+           k_EStreamFrameEventConvertEnd at 506710.22ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeBegin at 506710.22ms, delta: 0.00ms
+           k_EStreamFrameEventEncodeEnd at 506712.25ms, delta: 2.01ms
+           k_EStreamFrameEventSend at 506712.25ms, delta: 0.00ms
+           k_EStreamFrameEventRecv at 506713.81ms, delta: 1.57ms
+           k_EStreamFrameEventDecodeBegin at 506720.41ms, delta: 6.59ms
+           k_EStreamFrameEventDecodeEnd at 506720.84ms, delta: 0.46ms
+           k_EStreamFrameEventUploadBegin at 506724.16ms, delta: 3.30ms
+           k_EStreamFrameEventUploadEnd at 506729.22ms, delta: 5.08ms
+           k_EStreamFrameEventComplete at 506739.88ms, delta: 10.65ms
+           total frame time: 29.88ms, result = k_EStreamFrameResultDisplayed
