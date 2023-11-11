@@ -125,6 +125,9 @@ trust <mac address>
 
 # To remove, unpair, and untrust device, just execute the following
 remove <mac address>
+
+# To leave, use exit command
+exit
 ```
 
 ### Systemd Service
