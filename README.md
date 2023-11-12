@@ -5,7 +5,7 @@ My goal is to stream games from my desktop (*Host A* below) to my projector at *
 ## My Setup
 My general setup may be found [here](https://github.com/gamemann/Home-Lab).
 
-During stream testing, I played the game **Left 4 Dead 2** on Dead Center (safe room area).
+During stream testing, I played the game **Left 4 Dead 2** on Dead Center (testing in the safe room area). The issues I've faced so far happen across multiple games as well including Halo Master Chief Collection (MCC) and Call of Duty 4: Modern Warfare campaign (Original).
 
 ### Host A Setup (Desktop)
 * Windows 11 (22H2)
