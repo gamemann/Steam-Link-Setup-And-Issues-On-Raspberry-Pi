@@ -476,7 +476,7 @@ sudo reboot
 
 **Note A** - If you have a different user other than `pi`, make sure to change the `User=pi` line to whatever user you want Steam Link starting with (e.g. `User=christian`).
 
-**Note B** - I would also recommend having OpenSSH enabled on the Steam Link device if `Restart=always` is present in the `systemd` file since it will keep restarting Steam Link after exiting through the main TTY (until it reaches fail count). You can enable the OpenSSN service by executing `sudo raspi-config` and then navigating to Interfaces -> SSH (on Buster and Bullseye).
+**Note B** - I would also recommend having OpenSSH enabled on the Steam Link device if `Restart=always` is present in the `systemd` file since it will keep restarting Steam Link after exiting through the main TTY (until it reaches fail count). You can enable the OpenSSH service by executing `sudo raspi-config` and then navigating to Interfaces -> SSH (on Buster and Bullseye).
 
 ### Monitor For Testing
 When not using the projector (e.g. I'm at my desk), I use an [Acer KC242Y](https://www.amazon.com/dp/B0BS9T3FNB) monitor (100 Hz) with [this](https://www.amazon.com/dp/B0C6GF5S14) KVM switch for testing the Steam Link devices. I highly doubt the monitor is the cause to the issues I'm facing, especially since it also occurs on the projector as well, but just wanted to note it down.
