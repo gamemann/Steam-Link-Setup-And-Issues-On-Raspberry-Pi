@@ -505,4 +505,24 @@ Unfortunately, issue #1 (below) also impacts this device regardless of public/be
 
 Currently, when I use *any* controllers listed under my setup via USB, bluetooth, or dongle, I start receiving very high display latency making everything unplayable through the game stream. This impacts all Steam Link devices regardless of OS release, kernel, and Steam Link version (public/beta).
 
-*More information with screenshots + video coming soon...*
+The below are Steam Link performance graphs and traces during and after the issue is present. In this case, I simply plugged in my Xbox Core Wireless Controller via a USB-C -> USB cable, but it also happens when connected through BlueTooth or USB dongle (for the other controller). The issue usually starts occuring after I start moving around using the joystick when using the Xbox Core Wireless Controller, but always ends up occurring regardless whether I move around or not. Once I insert the USB dongle for the other controller, it starts happening almost instantly regardless of whether the controller itself is on/being used or not which is super strange as well.
+
+#### Steam Link Device #1 Graph During Issue ([Trace](./images/sl01/snapshots/8/StreamVideoTrace.txt))
+![Graph](./images/sl01/snapshots/8/Screenshot.png)
+
+#### Steam Link Device #1 Graph After Issue ([Trace](./images/sl01/snapshots/9/StreamVideoTrace.txt))
+![Graph](./images/sl01/snapshots/9/Screenshot.png)
+
+As you can see, the issue goes away instantly once I remove the controller.
+
+#### Steam Link Device #2 Graph During Issue ([Trace](./images/sl02/snapshots/5/StreamVideoTrace.txt))
+![Graph](./images/sl02/snapshots/5/Screenshot.png)
+
+#### Steam Link Device #2 Graph After Issue ([Trace](./images/sl02/snapshots/6/StreamVideoTrace.txt))
+![Graph](./images/sl02/snapshots/6/Screenshot.png)
+
+As you can see, the issue goes away instantly once I remove the controller.
+
+I'm not sure what is causing this issue to be honest. If I had to guess, it's related to the controller drivers considering using a keyboard/mouse via USB works just fine. I will need to do more testing (e.g. seeing if it happens with the `xpadneo` driver installed on a stock OS; Attempting to uninstall `xpadneo` using `uninstall.sh` didn't make any difference).
+
+*More information with video coming soon...*
