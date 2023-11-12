@@ -58,7 +58,7 @@ sudo apt install -y steamlink
 ![Graph 2](images/sl01/snapshots/2/Screenshot.png)
 
 ### More Information
-Here's the outputs of additional commands giving more information on this device.
+Here are the outputs of additional commands giving more information on this device.
 
 ```bash
 # Kernel
@@ -251,7 +251,7 @@ wget https://raw.githubusercontent.com/icolwell/install_scripts/master/steamlink
 ![Graph 2](images/sl02/snapshots/2/Screenshot.png)
 
 ### More Information
-Here's the outputs of additional commands giving more information on this device.
+Here are the outputs of additional commands giving more information on this device.
 
 ```bash
 # Kernel
