@@ -1,0 +1,33 @@
+# For more options and information see
+# http://rpf.io/configtxt
+# Some settings may impact device functionality. See link above for details
+
+# Enable hotplug so that video output can re-detect source (useful for Steam Link)
+hdmi_force_hotplug=1
+
+# HDMI group and mode which is set to 1920x1080 @ 120Hz below (you can also adjust using raspi-config -> Display -> Resolution)
+hdmi_group=1
+hdmi_mode=63
+
+# Force HDMI mode.
+hdmi_drive=2
+
+# Boosts signal 
+config_hdmi_boost=4
+
+# Enables audio
+dtparam=audio=on
+
+# Set max frame buffers (set to default)
+[pi4]
+max_framebuffers=2
+
+[all]
+# Enable FKMS which appears to be required when running in LITE mode with Steam Link
+dtoverlay=vc4-fkms-v3d
+
+# Allocate 256 MBs of GPU memory (128 is likely fine as well)
+gpu_mem=256
+
+# Allow 4K @ 60Hz (not sure if needed for 120 Hz)
+hdmi_enable_4kp60=1
