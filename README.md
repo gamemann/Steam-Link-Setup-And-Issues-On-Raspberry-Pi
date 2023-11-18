@@ -1,3 +1,7 @@
+# Newer Article
+[How To Setup Steam Link On Raspberry Pi 4 To Stream @ 1080P@120Hz!](https://deaconn.net/blog/view/setup-steam-link-on-raspberry-pi)
+
+## Description
 This repository will be documenting my adventure to setting up [Steam Link](https://store.steampowered.com/app/353380/Steam_Link/) on my [Raspberry Pi 4 Model B](https://www.amazon.com/Raspberry-Model-2019-Quad-Bluetooth/dp/B07TC2BK1X) devices. I hope this helps others who are aiming to achieve a similar setup or experience similar issues that I've faced in which I hope to have solutions for in the future!
 
 My goal is to stream games from my desktop (*Host A* below) to my projector at **1920x1080**@**120Hz** (FPS). I'm *currently* running into issues which is why I'll be listing everything here and posting online for help if I can't find a solution.
